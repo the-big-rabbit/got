@@ -724,7 +724,7 @@ const characters = [
     },
     {
         name: "Samwell Tarly",
-        astrology: ["Plein de ressources", "Emotif(ve)", "Intelectuel(le)"],
+        astrology: ["Débrouillard", "Emotif(ve)", "Intelectuel(le)"],
         themes: [
             {
                 nom: "La Quête Éternelle du Livre Parfait",
@@ -1860,28 +1860,31 @@ function updateUI(character) {
     const astrologyTitre = `${character[2]}`;
     const astrologyDescription = `${character[3]}`;
 
+    // Update the name element
+    const nameElement = document.createElement("h2");
+    nameElement.textContent = characterName;
+    characterContainer.appendChild(nameElement);
+
+    const astrologyElement = document.createElement("h3");
+    astrologyElement.textContent = astrology.toString().split(",").join(", ");
+    characterContainer.appendChild(astrologyElement);
+
     // Update the image element
     const imageElement = document.createElement("img");
     imageElement.src = imageUrl;
     imageElement.alt = characterName;
     characterContainer.appendChild(imageElement);
 
-    // Update the name element
-    const nameElement = document.createElement("h2");
-    nameElement.textContent = characterName;
-    characterNameContainer.appendChild(nameElement);
-
     // Update the astrology element
-    const astrologyElement = document.createElement("h3");
-    astrologyElement.textContent = astrology.toString().split(",").join(", ");
+
     const astrologyTitreElement = document.createElement("h1");
     astrologyTitreElement.textContent = astrologyTitre;
     const astrologyDescriptionElement = document.createElement("p");
     astrologyDescriptionElement.textContent = astrologyDescription;
 
     // Append the elements to the container
-    astrologyContainer.appendChild(nameElement);
-    astrologyContainer.appendChild(astrologyElement);
+    // characterNameContainer.appendChild(nameElement);
+
     astrologyContainer.appendChild(astrologyTitreElement);
     astrologyContainer.appendChild(astrologyDescriptionElement);
 }
