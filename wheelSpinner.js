@@ -1,6 +1,7 @@
 // Get the button and character container Elements
 const randomizeButton = document.getElementById("randomizeButton");
 const characterContainer = document.getElementById("characterContainer");
+const imageContainer = document.getElementById("imageContainer");
 const characterNameContainer = document.getElementById("name");
 const astrologyContainer = document.getElementById("asthrones");
 
@@ -1873,7 +1874,7 @@ function updateUI(character) {
     const imageElement = document.createElement("img");
     imageElement.src = imageUrl;
     imageElement.alt = characterName;
-    characterContainer.appendChild(imageElement);
+    imageContainer.appendChild(imageElement);
 
     // Update the astrology element
 
