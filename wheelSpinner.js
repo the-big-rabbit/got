@@ -12,104 +12,99 @@ const characters = [
         astrology: ["Ambitieux(se)", "Confiant(e)", "Déterminé(e)"],
         themes: [
             {
-                nom: "La Frénésie de l'Épée en Mousse",
+                nom: "Journée de la Quête Éternelle de la Justice pour les Déshérités",
                 description:
-                    "Les natifs de ce signe sont voués à des batailles épiques avec des épées en mousse, symbolisant des conflits sans conséquences réelles.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle de la Justice pour les Déshérités. Tu cherches constamment l'équité et la compassion dans un monde en perpétuelle évolution, guidée par ton désir de créer un royaume plus juste et égalitaire pour tous.",
             },
             {
-                nom: "La Quête du Smoothie Divin",
+                nom: "Journée de Conversations Empathiques avec les Dragons Ailés",
                 description:
-                    "Chaque jour, ces individus partent à la recherche du smoothie parfait, alignant les étoiles de la saveur dans leur quête nutritive.",
+                    "Chaque jour, c'est une Journée de Conversations Empathiques avec les Dragons Ailés pour toi. Tu explores les liens profonds avec tes compagnons imaginaires, partageant tes pensées et ressentant leur puissante présence d'une manière que seul un vrai Targaryen peut comprendre.",
             },
             {
-                nom: "Les Divagations Cosmiques",
+                nom: "Journée des Débats Intérieurs de la Reine Juste",
                 description:
-                    "Les personnes de ce signe ont un penchant pour les conversations cosmiques sans fin, où des idées farfelues et des théories délirantes prennent le pas sur la réalité.",
+                    "Aujourd'hui, c'est une Journée des Débats Intérieurs de la Reine Juste pour toi. Tu jongles constamment entre la compassion et la fermeté, utilisant ta sagesse pour guider tes décisions et forger un règne équilibré et juste.",
             },
             {
-                nom: "La Révolte des Chaussettes Orphelines",
+                nom: "Journée de la Parade Majestueuse des Libérateurs Inlassables",
                 description:
-                    "Ces individus sont liés par la lutte quotidienne contre les chaussettes orphelines qui disparaissent mystérieusement dans le vortex de la machine à laver.",
+                    "En cette Journée de la Parade Majestueuse des Libérateurs Inlassables, tu célèbres la grandeur et la détermination qui animent ta quête quotidienne de liberté pour tous. Ta volonté inébranlable d'affranchir les opprimés inspire les générations futures.",
             },
             {
-                nom: "L'Ascension de la Pyramide de Lessive",
+                nom: "Journée des Randonnées Aériennes au-dessus des Continents Lointains",
                 description:
-                    "Chaque journée offre l'opportunité de gravir la pyramide de lessive, symbolisant les défis domestiques et la recherche éternelle de chaussettes appariées.",
+                    "Aujourd'hui, c'est une Journée des Randonnées Aériennes au-dessus des Continents Lointains pour toi. Tu explores les horizons avec une vision audacieuse, guidée par le désir de créer un avenir meilleur et de repousser les limites du possible.",
             },
             {
-                nom: "La Danse Héroïque avec le Balai Magique",
+                nom: "Journée de la Lutte Contre les Regards Malveillants",
                 description:
-                    "Les natifs de ce signe sont destinés à des danses héroïques avec le balai magique, combattant la poussière et les miettes avec panache.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Malveillants. Tu fais face aux défis de maintenir la bonté et la bienveillance dans un monde parfois cruel, et ta résilience inspire ceux qui t'entourent.",
             },
             {
-                nom: "Les Affrontements Épiques avec la Machine à Café",
+                nom: "Journée de la Quête du Feu Sacré pour Briser les Chaînes",
                 description:
-                    "Chaque jour apporte des confrontations épiques avec la machine à café au bureau, où la quête de la pause parfaite est le défi ultime.",
+                    "En cette Journée de la Quête du Feu Sacré pour Briser les Chaînes, tu t'engages à utiliser la flamme comme une arme pour briser les chaînes de l'oppression et de l'injustice. Ton courage inspire l'espoir et la libération.",
             },
             {
-                nom: "Les Divinations dans le Pot de Yaourt",
+                nom: "Journée des Conseils pour Éviter les Liens Oppressifs",
                 description:
-                    "Ces individus excellent dans l'art de la divination en scrutant les motifs ésotériques au fond des pots de yaourt, révélant des mystères lactiques.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Éviter les Liens Oppressifs. Tu partages des leçons tirées de ton expérience pour encourager la préservation de l'indépendance et la promotion de la liberté individuelle.",
             },
             {
-                nom: "La Lutte Contre les Licornes en Peluche",
+                nom: "Journée de la Parade des Dragons Majestueux dans les Cieux Infinis",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre des hordes de licornes en peluche envahissantes, symbolisant des défis ludiques au quotidien.",
+                    "En cette Journée de la Parade des Dragons Majestueux dans les Cieux Infinis, tu célèbres la puissance et la grâce de la dynastie Targaryen. La majesté de tes dragons symbolise la grandeur de ton héritage.",
             },
             {
-                nom: "La Quête Infinie des Clés de Voiture Égarées",
+                nom: "Journée des Danses Harmonieuses avec les Peuples Libres",
                 description:
-                    "Chaque journée offre une nouvelle aventure pour retrouver les clés de voiture égarées, avec des rebondissements dignes d'une épopée mythique.",
+                    "Aujourd'hui, c'est une Journée des Danses Harmonieuses avec les Peuples Libres. Tu maîtrises l'art de la diplomatie et de l'unité, dansant avec les peuples pour unifier les nations et créer un monde de paix et de coopération.",
             },
             {
-                nom: "La Conquête du Royaume de la Chambre en Désordre",
+                nom: "Journée des Épopées Poétiques de la Mère des Dragons",
                 description:
-                    "Ces individus sont destinés à conquérir le royaume de la chambre en désordre, naviguant à travers les montagnes de vêtements et les mers de chaussures.",
+                    "En cette Journée des Épopées Poétiques de la Mère des Dragons, tu crées des chants épiques pour célébrer la force et la majesté de ta lignée. Ton histoire devient une inspiration pour les générations futures.",
             },
             {
-                nom: "Les Manœuvres Stratégiques pour Éviter les Embouteillages du Matin",
+                nom: "Journée de la Quête Infinie du Sens de la Libération Universelle",
                 description:
-                    "Chaque jour, les natifs de ce signe développent des manœuvres stratégiques dignes de généraux pour éviter les embouteillages matinaux.",
+                    "Pour toi, chaque jour est une Journée de la Quête Infinie du Sens de la Libération Universelle. Tu cherches à abolir les chaînes qui entravent la paix et la prospérité pour tous, travaillant inlassablement pour créer un monde meilleur.",
             },
             {
-                nom: "Les Prophéties du Micro-ondes",
+                nom: "Journée des Combats Épiques avec les Paroles de la Résistance",
                 description:
-                    "Ces individus sont capables de déchiffrer les prophéties du micro-ondes, interprétant les messages mystérieux qui accompagnent chaque réchauffage.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec les Paroles de la Résistance. Tu relèves les défis de défendre les idéaux de justice et d'égalité avec conviction, utilisant ta voix pour inspirer le changement.",
             },
             {
-                nom: "Les Rituels Sacrés du Yoga Devant la Télévision",
+                nom: "Journée de la Méditation Profonde sous les Étoiles Éternelles",
                 description:
-                    "Chaque journée est marquée par des rituels sacrés de yoga devant la télévision, mêlant la quête spirituelle à la passion pour les séries.",
+                    "En cette Journée de la Méditation Profonde sous les Étoiles Éternelles, tu t'engages à explorer la sagesse cosmique et la responsabilité qui accompagne le pouvoir. Chaque méditation te connecte aux étoiles, te rappelant ta destinée.",
             },
             {
-                nom: "Les Expéditions Audacieuses dans le Désert de la Boîte à Gants",
+                nom: "Journée de la Quête du Sens de la Compassion Infinie",
                 description:
-                    "Les natifs de ce signe entreprennent des expéditions audacieuses dans le désert de la boîte à gants à la recherche d'objets perdus depuis des éons.",
+                    "Aujourd'hui, c'est une Journée de la Quête du Sens de la Compassion Infinie. L'amour et la bienveillance sont pour toi des valeurs sacrées, guidant tes actions et te permettant de créer des liens profonds avec ceux qui t'entourent.",
             },
             {
-                nom: "Les Éclats de Rire Cosmiques",
+                nom: "Journée des Conseils Sages des Anciens Gardiens de la Sagesse",
                 description:
-                    "Inspirés par les éclats de rire cosmiques, ces individus trouvent l'humour dans chaque situation, même les plus absurdes.",
+                    "En cette Journée des Conseils Sages des Anciens Gardiens de la Sagesse, tu dispenses des conseils inspirés de la connaissance ancienne. Ta sagesse guide tes choix au quotidien, et ton héritage devient une source d'inspiration pour tous.",
             },
             {
-                nom: "La Course Effrénée pour Attraper le Bus en Retard",
+                nom: "Journée de la Danse des Flammes avec les Nuances de Rouge et d'Or",
                 description:
-                    "Chaque journée est une course effrénée pour attraper le bus en retard, avec des scènes dignes d'un film d'action.",
+                    "Aujourd'hui, c'est une Journée de la Danse des Flammes avec les Nuances de Rouge et d'Or. Tu danses avec les flammes, symbolisant la passion et la puissance des dragons qui coulent dans tes veines royales.",
             },
             {
-                nom: "La Négociation Diplomatique avec le Réveil Matinal",
+                nom: "Journée de la Négociation Diplomatique avec les Maisons du Royaume",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec le réveil matinal, cherchant à prolonger les moments de sommeil.",
+                    "En cette Journée de la Négociation Diplomatique avec les Maisons du Royaume, tu excelles dans l'art délicat de créer des alliances. Ta vision d'un Westeros unifié guide tes efforts pour instaurer la paix dans tout le royaume.",
             },
             {
-                nom: "Les Sortilèges de la Cafetière Magique",
+                nom: "Journée des Éclats de Rire Bienveillants dans les Salles du Pouvoir",
                 description:
-                    "Ces individus maîtrisent les sortilèges de la cafetière magique, transformant l'eau et le café en potion énergétique pour affronter la journée.",
-            },
-            {
-                nom: "La Méditation Profonde sur les Mystères du Frigo",
-                description:
-                    "Chaque jour, les natifs de ce signe s'engagent dans une méditation profonde pour résoudre les mystères du frigo, explorant les contrées inexplorées des restes alimentaires.",
+                    "Pour toi, chaque jour est une Journée des Éclats de Rire Bienveillants dans les Salles du Pouvoir. Ton humour détendu et bienveillant ajoute une touche de légèreté aux moments de tension, rappelant à tous la sagesse et la détente.",
             },
         ],
     },
@@ -122,99 +117,79 @@ const characters = [
         ],
         themes: [
             {
-                nom: "La Stratégie de la Petite Main",
+                nom: "Journée de la Petite Main",
                 description:
-                    "Les natifs de ce signe excellent dans l'art subtil de la stratégie politique et des manœuvres en coulisse, tout en restant toujours une petite main astucieuse.",
+                    "Tu excelleras dans l'art subtil de la stratégie politique et des manœuvres en coulisse, tout en restant une petite main astucieuse.",
             },
             {
-                nom: "La Quête du Vin Parfait",
+                nom: "Journée du Vin Parfait",
                 description:
-                    "Chaque jour, ces individus partent à la recherche du vin parfait, harmonisant les saveurs et les arômes avec la précision d'un connaisseur.",
+                    "Tu partiras à la recherche du vin parfait, harmonisant les saveurs et les arômes avec la précision d'un connaisseur.",
             },
             {
-                nom: "Les Discours Éloquents du Lutin Littéraire",
+                nom: "Journée des Discours Éloquents du Lutin Littéraire",
                 description:
-                    "Les personnes de ce signe sont destinées à prononcer des discours éloquents et à manier les mots avec la finesse d'un lutin littéraire, même dans les situations les plus inattendues.",
+                    "Tu sera destiné(e) à prononcer des discours éloquents et à manier les mots avec la finesse d'un lutin littéraire, même dans les situations les plus inattendues.",
             },
             {
-                nom: "La Parade des Chapeaux Ludiques",
+                nom: "Journée de La Danse des Chapeaux de Lutin",
                 description:
-                    "Ces individus sont connus pour leurs parades quotidiennes de chapeaux ludiques, symbolisant l'élégance et la fantaisie au cœur de la vie quotidienne.",
+                    "Tu devras faire une danse avec des chapeaux de lutin, symbolisant l'élégance et la fantaisie au cœur de la vie quotidienne.",
             },
             {
-                nom: "Les Négociations Diplomatiques avec les Dragons",
+                nom: "Journée Des Négociations Diplomatiques avec les Dragons",
                 description:
-                    "Chaque journée apporte des négociations diplomatiques délicates avec des dragons imaginaires, mettant à l'épreuve la ruse et la diplomatie de ces natifs.",
+                    "Tu mèneras des négociations diplomatiques délicates avec des dragons imaginaires.",
             },
             {
-                nom: "Les Conseils pour Éviter les Mariages Malheureux",
+                nom: "Journée Des Conseils pour Éviter les Mariages Malheureux",
                 description:
-                    "Les natifs de ce thème astrologique dispensent des conseils astucieux pour éviter les mariages malheureux, basés sur une expérience personnelle inégalée.",
+                    "Tu dispenseras des conseils astucieux pour éviter les mariages malheureux, basés sur une expérience personnelle inégalée.",
             },
             {
-                nom: "La Lutte Contre les Géants des Bureaux",
+                nom: "Journée de La Lutte Contre les Géants des Bureaux",
                 description:
-                    "Chaque jour, ces individus sont appelés à lutter contre les géants des bureaux, symbolisant les défis quotidiens dans un monde de titans professionnels.",
+                    "Tu lutteras contre les géants des bureaux, symbolisant les défis quotidiens dans un monde de titans professionnels.",
             },
             {
-                nom: "Les Débats Intérieurs du Génie Tactique",
+                nom: "Journée des Débats Intérieurs du Génie Tactique",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un génie tactique, pesant le pour et le contre avec une clarté exceptionnelle.",
+                    "Tu seras engagé(e) dans des débats intérieurs dignes d'un génie tactique, pesant le pour et le contre avec une clarté exceptionnelle.",
             },
             {
-                nom: "La Chasse au Trésor dans les Livres Anciens",
+                nom: "Journée de La Chasse au Trésor dans les Livres Anciens",
                 description:
-                    "Ces individus entreprennent des chasses au trésor intellectuelles dans les livres anciens, dévoilant des connaissances précieuses et des secrets enfouis.",
+                    "Tu entreprendras des chasses au trésor intellectuelles dans les livres anciens, dévoilant des connaissances précieuses et des secrets enfouis.",
             },
             {
-                nom: "Les Stripteases de l'Esprit Aiguisé",
+                nom: "Journée Des Stripteases de l'Esprit Aiguisé",
                 description:
-                    "Chaque journée offre des moments de striptease intellectuel, révélant un esprit aiguisé et des pensées acérées dignes d'un Lannister.",
+                    "Tu offriras des moments de striptease intellectuel, révélant un esprit nu et des pensées acérées dignes d'un Lannister.",
             },
             {
-                nom: "La Parade des Lutins dans les Vignobles",
+                nom: "Journée de la Danse des Lutins dans les Vignobles",
                 description:
-                    "Les natifs de ce thème astrologique participent à des parades de lutins dans les vignobles, célébrant la joyeuse alliance entre la viticulture et la fantaisie.",
+                    "Tu participeras à une danse de lutins dans les vignobles, célébrant la joyeuse alliance entre la viticulture et la fantaisie.",
             },
             {
-                nom: "Les Épopées Comiques de la Petite Taille",
+                nom: "Journée des Épopées Comiques de la Petite Taille",
                 description:
-                    "Ces individus vivent des épopées comiques de la petite taille, surmontant les défis avec humour et intelligence, prouvant que la grandeur n'est pas une question de taille.",
+                    "Tu vivras des épopées comiques de la petite taille, surmontant les défis avec humour et intelligence, prouvant que la grandeur n'est pas une question de taille.",
             },
             {
-                nom: "La Diplomatie à Dos de Lézard",
+                nom: "Jpurnée de La Quête Infinie du Siège Parfait",
                 description:
-                    "Chaque jour, ces natifs pratiquent la diplomatie à dos de lézard, naviguant à travers les intrigues avec agilité et une touche de fantaisie reptilienne.",
+                    "Tu seras voué(e) à une quête infinie du siège parfait, cherchant le confort ultime dans un monde souvent trop grand pour eux.",
             },
             {
-                nom: "La Danse Virtuose avec les Énigmes",
+                nom: "Journée Des Manœuvres Tactiques pour Éviter les Lancers de Tomates",
                 description:
-                    "Les personnes de ce signe sont destinées à une danse virtuose avec les énigmes, résolvant des mystères complexes avec une facilité déconcertante.",
+                    "Tu développeras des manœuvres tactiques ingénieuses pour éviter les lancers de tomates, prouvant que l'esprit peut triompher de la taille.",
             },
             {
-                nom: "Les Combats Épiques avec les Minibarres",
+                nom: "Journée des Éclats de Rire Stratégiques",
                 description:
-                    "Chaque journée apporte des combats épiques avec les minibarres, mettant à l'épreuve la volonté de ces individus face à des tentations miniatures mais redoutables.",
-            },
-            {
-                nom: "La Quête Infinie du Siège Parfait",
-                description:
-                    "Ces individus sont voués à une quête infinie du siège parfait, cherchant le confort ultime dans un monde souvent trop grand pour eux.",
-            },
-            {
-                nom: "Les Manœuvres Tactiques pour Éviter les Lancers de Tomates",
-                description:
-                    "Chaque jour, les natifs de ce signe développent des manœuvres tactiques ingénieuses pour éviter les lancers de tomates, prouvant que l'esprit peut triompher de la taille.",
-            },
-            {
-                nom: "Les Conseils Sages pour Éviter les Batailles Inutiles",
-                description:
-                    "Ces individus dispensent des conseils sages pour éviter les batailles inutiles, mettant en avant la sagesse plutôt que la force brute dans la résolution de conflits.",
-            },
-            {
-                nom: "Les Éclats de Rire Stratégiques",
-                description:
-                    "Inspirés par les éclats de rire stratégiques, ces natifs trouvent l'humour dans chaque situation, utilisant le rire comme une arme puissante contre l'adversité.",
+                    "Inspirés par les éclats de rire stratégiques, tu trouveras l'humour dans chaque situation, utilisant le rire comme une arme puissante contre l'adversité.",
             },
         ],
     },
@@ -223,99 +198,69 @@ const characters = [
         astrology: ["Sociable", "Équilibré(e)", "Sensible"],
         themes: [
             {
-                nom: "La Quête Éternelle du Manteau en Fourrure",
+                nom: "Journée de La Quête Éternelle du Manteau en Fourrure",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle du manteau en fourrure parfait, symbolisant leur recherche constante de chaleur et de style dans l'adversité.",
+                    "Tu seras voué(e) à une quête éternelle du manteau en fourrure parfait, symbolisant la recherche constante de chaleur et de style dans l'adversité.",
             },
             {
-                nom: "La Diplomatie avec les Loups-Garous",
+                nom: "Journée de La Diplomatie avec les Loups",
                 description:
-                    "Chaque jour, ces individus pratiquent la diplomatie avec les loups-garous imaginaires, mettant à l'épreuve leur capacité à communiquer avec la nature sauvage.",
+                    "Tu pratiqueras la diplomatie avec des loups imaginaires, mettant à l'épreuve ta capacité à communiquer avec la nature sauvage.",
             },
             {
-                nom: "Les Débats Intérieurs du Seigneur des Neiges",
+                nom: "Journée des Débats Intérieurs du Seigneur des Neiges",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un seigneur des neiges, naviguant entre l'honneur et la réalité brutale.",
+                    "Tu seras constamment engagé(e) dans des débats intérieurs dignes d'un seigneur des neiges, naviguant entre l'honneur et la réalité brutale.",
             },
             {
-                nom: "La Parade Épique des Épées Perdues",
+                nom: "Journée de La Danse Épique des Épées Perdues",
                 description:
-                    "Ces individus participent à des parades épiques des épées perdues, symbolisant les défis de la quête de la lame parfaite dans un monde enneigé.",
+                    "Tu participera à la danse épique des épées perdues, symbolisant les défis de la quête de la lame parfaite dans un monde enneigé.",
             },
             {
-                nom: "Les Randonnées Mystiques au-delà du Mur",
+                nom: "Journée Des Randonnées Mystiques au-delà du Mur",
                 description:
-                    "Chaque journée apporte des randonnées mystiques au-delà du Mur, explorant des territoires inexplorés de la vie quotidienne avec une touche de mystère nordique.",
+                    "Tu feras une randonnée mystiqyue au-delà du Mur, explorant des territoires inexplorés de la vie quotidienne avec une touche de mystère nordique.",
             },
             {
-                nom: "La Lutte Contre les Ventilateurs de Glace",
+                nom: "Journée de La Lutte Contre les Ventilateurs de Glace",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les ventilateurs de glace, symbolisant les batailles contre le froid glacial avec détermination.",
+                    "Tu seras appelé(e) à lutter contre les ventilateurs de glace, symbolisant les batailles contre le froid glacial avec détermination.",
             },
             {
-                nom: "La Quête du Café Noir comme la Garde de Nuit",
+                nom: "Journée de La Quête du Café Noir comme la Garde de Nuit",
                 description:
-                    "Chaque jour, ces individus partent à la quête du café noir parfait, adoptant l'austérité de la Garde de Nuit dans leur recherche de caféine.",
+                    "Tu partiras à la recherhche de la quête du café noir parfait, adoptant l'austérité de la Garde de Nuit dans leur recherche de caféine.",
             },
             {
-                nom: "Les Conseils pour Éviter les Mariages à la Red Wedding",
+                nom: "Journée Des Conseils pour Éviter les Mariages à la Red Wedding",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les mariages à la Red Wedding, tirant des leçons de la tragédie de Westeros.",
+                    "Tu dispenseras des conseils pour éviter les mariages à la Red Wedding, tirant des leçons de la tragédie de Westeros.",
             },
             {
-                nom: "La Parade des Direwolves dans les Couloirs",
+                nom: "Journée Des Courses de Loups à dos de Dragon",
                 description:
-                    "Ces individus participent à des parades des direwolves dans les couloirs, symbolisant la loyauté et la présence constante de compagnons fidèles.",
+                    "Tu participeras à des courses de loups à dos de dragon, combinant la grâce aérienne avec la puissance mystique, dans des aventures fantastiques.",
             },
             {
-                nom: "Les Courses de Loups-Garous à dos de Dragon",
+                nom: "Journée Des Épopées Poétiques du Bâtard Honoré",
                 description:
-                    "Chaque journée offre des courses de loups-garous à dos de dragon, combinant la grâce aérienne avec la puissance mystique dans des aventures fantastiques.",
+                    "Tu vivras des épopées poétiques du bâtard honoré, créant des vers épiques pour narrer tes propres histoires héroïques.",
             },
             {
-                nom: "Les Épopées Poétiques du Bâtard Honoré",
+                nom: "Journée de La Quête Infinie de la Vérité sur ses Origines",
                 description:
-                    "Ces individus vivent des épopées poétiques du bâtard honoré, créant des vers épiques pour narrer leurs propres histoires héroïques.",
+                    "Tu seras voué(e) à une quête infinie de la vérité sur leurs origines, cherchant à démêler les mystères de ton histoire personnelle.",
             },
             {
-                nom: "La Quête Infinie de la Vérité sur ses Origines",
+                nom: "Journée Des Conseils Sages des Neiges Éternelles",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie de la vérité sur leurs origines, cherchant à démêler les mystères de leur histoire personnelle.",
+                    "Tu dispenseras les conseils sages des neiges éternelles, puisant dans la sagesse de l'hiver pour guider les actions des autres au quotidien.",
             },
             {
-                nom: "Les Combats Épiques avec les Briques de Glace",
+                nom: "Journée de La Négociation Diplomatique avec les Marcheurs Blancs",
                 description:
-                    "Chaque journée apporte des combats épiques avec les briques de glace, symbolisant les défis de la vie quotidienne dans un monde glacé et imprévisible.",
-            },
-            {
-                nom: "La Méditation Profonde sur les Secrets du Corbeau Trois Yeux",
-                description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les secrets du corbeau à trois yeux, explorant les mystères cachés de leur propre conscience.",
-            },
-            {
-                nom: "La Quête du Sens de l'Honneur dans un Monde Ironique",
-                description:
-                    "Chaque journée offre la quête perpétuelle du sens de l'honneur dans un monde ironique, où les contradictions défient la logique conventionnelle.",
-            },
-            {
-                nom: "Les Conseils Sages des Neiges Éternelles",
-                description:
-                    "Ces individus dispensent des conseils sages des neiges éternelles, puisant dans la sagesse de l'hiver pour guider leurs actions au quotidien.",
-            },
-            {
-                nom: "La Danse de l'Épée avec les Nuances de Gris",
-                description:
-                    "Chaque jour, les natifs de ce signe dansent avec leur épée à travers les nuances de gris, symbolisant les choix moraux complexes qui jalonnent leur chemin.",
-            },
-            {
-                nom: "La Négociation Diplomatique avec les Marcheurs Blancs",
-                description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les Marcheurs Blancs, cherchant la paix dans les régions glacées de la vie.",
-            },
-            {
-                nom: "Les Éclats de Rire dans les Tempêtes de Neige",
-                description:
-                    "Inspirés par les éclats de rire dans les tempêtes de neige, ces natifs trouvent l'humour au cœur des situations les plus froides et hostiles.",
+                    "Tu excelleras dans l'art délicat de la négociation diplomatique avec les Marcheurs Blancs, cherchant la paix dans les régions glacées de la vie.",
             },
         ],
     },
@@ -324,99 +269,49 @@ const characters = [
         astrology: ["Romantique", "Naïf(ve)", "Rêveur(se)"],
         themes: [
             {
-                nom: "La Quête Éternelle de la Robe parfaite",
+                nom: "Journée de La Quête Éternelle de la Robe parfaite",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle de la robe parfaite, symbolisant leur recherche constante de grâce et d'élégance dans un monde changeant.",
+                    "Tu seras voué(e) à une quête éternelle de la robe parfaite, symbolisant ta recherche constante de grâce et d'élégance dans un monde changeant.",
             },
             {
-                nom: "Les Discussions Diplomatiques avec les Oiseaux",
+                nom: "Journée des Débats Intérieurs de la Dame du Nord",
                 description:
-                    "Chaque jour, ces individus pratiquent les discussions diplomatiques avec les oiseaux imaginaires, décodant les messages cachés du royaume animal.",
+                    "Tu seras constamment engagé(e) dans des débats intérieurs dignes d'une dame du Nord, naviguant entre la prudence et la fermeté.",
             },
             {
-                nom: "Les Débats Intérieurs de la Dame du Nord",
+                nom: "Journée des Randonnées Introspectives dans les Jardins Royaux",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'une dame du Nord, naviguant entre la prudence et la fermeté avec sagesse.",
+                    "Tu feras des randonnées introspectives dans les jardins royaux, explorant des territoires intérieurs paisibles et enchanteurs.",
             },
             {
-                nom: "La Parade Élégante des Loups Dire",
+                nom: "Journée des Danses Élégantes avec des Intrigues Courtoises",
                 description:
-                    "Ces individus participent à des parades élégantes des loups dire, symbolisant la loyauté et la présence constante de compagnons fidèles dans leur vie quotidienne.",
+                    "La journée t'offriras des danses élégantes avec des intrigues courtoises, maîtrisant l'art subtil de naviguer dans les eaux troubles de la politique royale.",
             },
             {
-                nom: "Les Randonnées Introspectives dans les Jardins Royaux",
+                nom: "Journée des Épopées Poétiques de la Rose du Nord",
                 description:
-                    "Chaque journée apporte des randonnées introspectives dans les jardins royaux, explorant des territoires intérieurs paisibles et enchanteurs.",
+                    "Tu vivras des épopées poétiques de la rose du Nord, créant des vers épiques pour célébrer la beauté et la résilience dans ta propre histoire.",
             },
             {
-                nom: "La Lutte Contre les Fils Égarés",
+                nom: "Journée de La Quête Infinie du Sens de l'Indépendance",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les fils égarés, symbolisant les défis de maintenir l'ordre dans un monde parfois chaotique.",
+                    "Tu seras voué(e) à une quête infinie du sens de l'indépendance, cherchant à forger ton propre destin dans un monde parfois oppressant.",
             },
             {
-                nom: "La Quête du Thé Parfait comme Stratégie de Cour",
+                nom: "Journée des Combats Épiques avec les Épingles à Cheveux",
                 description:
-                    "Chaque jour, ces individus partent à la quête du thé parfait, adoptant la subtilité d'une stratégie de cour dans leur recherche de saveurs délicates.",
+                    "Aujourd'hui tu affronteras des combats épiques avec des épingles à cheveux, symbolisant les défis esthétiques de maintenir une coiffure impeccable dans toutes les situations.",
             },
             {
-                nom: "Les Conseils pour Éviter les Mariages Malheureux",
+                nom: "Journée de La Quête du Sens de la Courtoisie dans un Monde Cynique",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les mariages malheureux, tirant des leçons de leur propre histoire et des drames du royaume.",
+                    "Cette journée t'offriras la quête perpétuelle du sens de la courtoisie dans un monde cynique, où la gentillesse peut être une arme puissante.",
             },
             {
-                nom: "La Parade des Lions dans les Salons",
+                nom: "Journée des Conseils Sages des Jardins d'Hiver",
                 description:
-                    "Ces individus participent à des parades des lions dans les salons, symbolisant la grâce et la présence majestueuse dans des événements sociaux souvent complexes.",
-            },
-            {
-                nom: "Les Danses Élégantes avec les Intrigues Courtoises",
-                description:
-                    "Chaque journée offre des danses élégantes avec les intrigues courtoises, maîtrisant l'art subtil de naviguer dans les eaux troubles de la politique royale.",
-            },
-            {
-                nom: "Les Épopées Poétiques de la Rose du Nord",
-                description:
-                    "Ces individus vivent des épopées poétiques de la rose du Nord, créant des vers épiques pour célébrer la beauté et la résilience dans leur propre histoire.",
-            },
-            {
-                nom: "La Quête Infinie du Sens de l'Indépendance",
-                description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de l'indépendance, cherchant à forger leur propre destin dans un monde parfois oppressant.",
-            },
-            {
-                nom: "Les Combats Épiques avec les Épingles à Cheveux",
-                description:
-                    "Chaque journée apporte des combats épiques avec les épingles à cheveux, symbolisant les défis esthétiques de maintenir une coiffure impeccable dans toutes les situations.",
-            },
-            {
-                nom: "La Méditation Profonde sur les Secrets des Roses",
-                description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les secrets des roses, explorant la délicatesse cachée derrière leur apparence extérieure.",
-            },
-            {
-                nom: "La Quête du Sens de la Courtoisie dans un Monde Cynique",
-                description:
-                    "Chaque journée offre la quête perpétuelle du sens de la courtoisie dans un monde cynique, où la gentillesse peut être une arme puissante.",
-            },
-            {
-                nom: "Les Conseils Sages des Jardins d'Hiver",
-                description:
-                    "Ces individus dispensent des conseils sages des jardins d'hiver, puisant dans la sagesse des saisons froides pour guider leurs actions au quotidien.",
-            },
-            {
-                nom: "La Danse de la Rose avec les Nuances de Rouge",
-                description:
-                    "Chaque jour, les natifs de ce signe dansent avec la rose à travers les nuances de rouge, symbolisant les choix délicats et les nuances subtiles de la vie.",
-            },
-            {
-                nom: "La Négociation Diplomatique avec les Marchands d'Épices",
-                description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les marchands d'épices, apportant des saveurs exotiques à leur quotidien.",
-            },
-            {
-                nom: "Les Éclats de Rire dans les Salons Royaux",
-                description:
-                    "Inspirés par les éclats de rire dans les salons royaux, ces natifs trouvent l'humour au cœur des situations les plus complexes et des règles strictes.",
+                    "Tu dispenseras les conseils sages des jardins d'hiver aux autres, puisant dans la sagesse des saisons froides pour guider leurs actions au quotidien.",
             },
         ],
     },
@@ -425,99 +320,94 @@ const characters = [
         astrology: ["Protecteur(rice)", "Sens de la famille", "Ambitieux(se)"],
         themes: [
             {
-                nom: "La Quête Éternelle de la Couronne Parfaite",
+                nom: "Journée de la Quête Éternelle du Pouvoir Absolu",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle de la couronne parfaite, symbolisant leur recherche constante de pouvoir et de prestige dans un monde politique complexe.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle du Pouvoir Absolu. Tu cherches constamment à étendre ton influence et à consolider ta position, utilisant tous les moyens nécessaires pour atteindre tes objectifs ambitieux.",
             },
             {
-                nom: "Les Négociations Diplomatiques avec les Lions",
+                nom: "Journée de Conversations Impérieuses avec les Lions d'Or",
                 description:
-                    "Chaque jour, ces individus pratiquent les négociations diplomatiques avec les lions imaginaires, naviguant avec finesse au sein des intrigues familiales.",
+                    "Chaque jour, c'est une Journée de Conversations Impérieuses avec les Lions d'Or pour toi. Tu maîtrises l'art des échanges impérieux, explorant les subtilités du pouvoir et de la politique avec une confiance inébranlable.",
             },
             {
-                nom: "Les Débats Intérieurs de la Reine Machiavélique",
+                nom: "Journée des Débats Intérieurs de la Reine Machiavélique",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'une reine machiavélique, manœuvrant entre l'amour et le pouvoir avec astuce.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'une reine machiavélique. Tu jongles entre la ruse et la stratégie avec audace, utilisant ton intelligence aiguisée pour naviguer dans les eaux tumultueuses du jeu politique.",
             },
             {
-                nom: "La Parade Majestueuse des Robes Dorées",
+                nom: "Journée de la Parade Majestueuse des Souveraines Intrigantes",
                 description:
-                    "Ces individus participent à des parades majestueuses des robes dorées, symbolisant l'élégance et l'autorité dans le choix des tenues royales.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Souveraines Intrigantes pour toi. Tu célèbres la grandeur et l'intrigue, symbolisant ta quête quotidienne de manipulation subtile et de contrôle sur le trône de fer.",
             },
             {
-                nom: "Les Randonnées Tactiques dans les Cachots du Donjon Rouge",
+                nom: "Journée des Randonnées Tactiques dans les Coulisses du Pouvoir",
                 description:
-                    "Chaque journée apporte des randonnées tactiques dans les cachots du Donjon Rouge, explorant les secrets et les complots cachés dans les profondeurs du royaume.",
+                    "Chaque journée apporte des randonnées tactiques dans les coulisses du pouvoir, explorant les intrications politiques avec une stratégie méticuleuse. Ton intelligence affûtée guide chacun de tes pas sur l'échiquier du pouvoir.",
             },
             {
-                nom: "La Lutte Contre les Regards en Biais",
+                nom: "Journée de la Lutte Contre les Regards Envieux",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regards en biais, symbolisant les défis de maintenir la confiance dans un monde rempli de méfiance.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Envieux. Tu fais face aux défis de maintenir ta position dominante dans un monde où l'envie et la jalousie abondent, montrant avec fierté ta force et ta détermination.",
             },
             {
-                nom: "La Quête du Vin Raffiné comme Stratégie de Cour",
+                nom: "Journée de la Quête du Vin Raffiné pour Étancher la Soif du Pouvoir",
                 description:
-                    "Chaque jour, ces individus partent à la quête du vin raffiné, adoptant la subtilité d'une stratégie de cour dans leur recherche de plaisirs exquis.",
+                    "Chaque jour, c'est une Journée de la Quête du Vin Raffiné pour Étancher la Soif du Pouvoir. Tu savoures les plaisirs de la vie, négociant et conspirant autour d'une bouteille bien choisie tout en consolidant ton emprise sur le royaume.",
             },
             {
-                nom: "Les Conseils pour Éviter les Mariages Inopportuns",
+                nom: "Journée des Conseils pour Éviter les Liens Emotionnels Inutiles",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les mariages inopportuns, tirant des leçons de leur propre expérience et des alliances politiques délicates.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Éviter les Liens Emotionnels Inutiles. Tu dispensas des conseils pour maintenir la distance émotionnelle, tirant des leçons de ton propre parcours pour préserver la puissance du trône.",
             },
             {
-                nom: "La Parade des Lions d'Or dans les Salons",
+                nom: "Journée de la Parade des Lions d'Or dans les Cours Royales",
                 description:
-                    "Ces individus participent à des parades des lions d'or dans les salons, symbolisant la majesté et la puissance qui émanent de leur présence royale.",
+                    "Les natifs de ce signe participent à des parades des lions d'or dans les cours royales, symbolisant la puissance et la richesse au cœur du jeu politique. Ta présence majestueuse et ta prestance font de chaque apparition un spectacle royal.",
             },
             {
-                nom: "Les Danses Élégantes avec les Intrigues Politiques",
+                nom: "Journée des Danses Diplomatiques avec les Puissants de Westeros",
                 description:
-                    "Chaque journée offre des danses élégantes avec les intrigues politiques, maîtrisant l'art subtil de la manipulation et du jeu de pouvoir.",
+                    "Chaque journée offre des danses diplomatiques avec les puissants de Westeros, maîtrisant l'art subtil de la manipulation et de l'alliance stratégique. Ton charme et ton habileté politique te permettent de tisser des liens bénéfiques pour ta cause.",
             },
             {
-                nom: "Les Épopées Poétiques de la Reine Implacable",
+                nom: "Journée des Épopées Poétiques de la Dame Machiavélique",
                 description:
-                    "Ces individus vivent des épopées poétiques de la reine implacable, créant des vers épiques pour célébrer leur détermination et leur force inébranlable.",
+                    "Les natifs de ce signe vivent des épopées poétiques de la dame machiavélique, créant des chants épiques pour célébrer l'intelligence et la ruse. Chacune de tes manœuvres politiques devient une note dans la symphonie de ton règne.",
             },
             {
-                nom: "La Quête Infinie du Sens de la Légitimité",
+                nom: "Journée de la Quête Infinie du Sens de la Stratégie Implacable",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de la légitimité, cherchant à asseoir leur autorité dans un monde parfois sceptique.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de la stratégie implacable. Tu cherches à anticiper chaque mouvement, utilisant ta sagacité pour préserver ton influence et ta domination politique.",
             },
             {
-                nom: "Les Combats Épiques avec les Robes à Traîne",
+                nom: "Journée des Combats Épiques avec les Épées de l'Intrigue",
                 description:
-                    "Chaque journée apporte des combats épiques avec les robes à traîne, symbolisant les défis de se déplacer avec grâce tout en portant le poids du pouvoir.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec les Épées de l'Intrigue. Tu manies des armes aussi tranchantes que la politique de haut niveau, utilisant ton intelligence et ta ruse pour triompher de tes adversaires.",
             },
             {
-                nom: "La Méditation Profonde sur les Secrets des Lions Dorés",
+                nom: "Journée de la Méditation Profonde sur les Arcanes des Alliances",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les secrets des lions dorés, explorant la noblesse cachée derrière la fierté extérieure.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les arcanes des alliances, explorant les subtilités des pactes et des accords politiques. Ta compréhension aiguisée des relations tisse la toile de ton influence politique.",
             },
             {
-                nom: "La Quête du Sens de l'Autonomie dans un Monde de Conspirations",
+                nom: "Journée de la Quête du Sens de la Puissance Absolue",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de l'autonomie dans un monde de conspirations, où l'indépendance est parfois difficile à préserver.",
+                    "Cette journée t'offre la quête perpétuelle du sens de la puissance absolue, où la domination politique est la mesure ultime du succès. Ta soif de pouvoir et de contrôle te pousse à atteindre de nouveaux sommets dans le jeu politique de Westeros.",
             },
             {
-                nom: "Les Conseils Sages des Salons Royaux",
+                nom: "Journée des Conseils Sages des Stratèges de la Cour",
                 description:
-                    "Ces individus dispensent des conseils sages des salons royaux, puisant dans la sagesse des événements mondains pour guider leurs actions au quotidien.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Stratèges de la Cour. Tu dispensas des conseils inspirés des stratèges les plus habiles, utilisant la sagesse ancienne pour guider tes propres manœuvres politiques avec finesse et perspicacité.",
             },
             {
-                nom: "La Danse de l'Or avec les Nuances de Jaune",
+                nom: "Journée de la Négociation Diplomatique avec les Maisons Rivales",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec l'or à travers les nuances de jaune, symbolisant les choix éclatants et les richesses de la vie.",
+                    "En cette Journée de la Négociation Diplomatique avec les Maisons Rivales, tu excelles dans l'art délicat de créer des alliances et d'affirmer la suprématie de la maison Lannister. Ta diplomatie subtile assure la stabilité et la prospérité du royaume.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Marchands d'Épices Rares",
+                nom: "Journée des Éclats de Rire Ironiques dans les Salles du Pouvoir",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les marchands d'épices rares, ajoutant des saveurs exotiques à leur règne.",
-            },
-            {
-                nom: "Les Éclats de Rire Stratégiques dans les Salles du Trône",
-                description:
-                    "Inspirés par les éclats de rire stratégiques dans les salles du trône, ces natifs trouvent l'humour au cœur des situations politiques les plus complexes.",
+                    "Pour toi, chaque jour est une Journée des Éclats de Rire Ironiques dans les Salles du Pouvoir. Ton humour sarcastique ajoute une touche de cynisme aux moments politiques, soulignant avec ironie les subtilités du jeu de trônes.",
             },
         ],
     },
@@ -526,99 +416,99 @@ const characters = [
         astrology: ["Loyal(e)", "Imprévisible", "Déterminé(e)"],
         themes: [
             {
-                nom: "La Quête Éternelle de l'Épée Parfaite",
+                nom: "Journée de la Quête Éternelle de la Rédemption Héroïque",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle de l'épée parfaite, symbolisant leur recherche constante de maîtrise dans l'art de l'escrime et de l'honneur.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle de la Rédemption Héroïque. Tu cherches constamment à racheter ton passé et à forger un avenir où l'héroïsme et la bravoure guident tes actions, transcendant les ombres de tes choix passés.",
             },
             {
-                nom: "Les Négociations Diplomatiques avec les Lions",
+                nom: "Journée de Conversations Franches avec l'Épée d'Or",
                 description:
-                    "Chaque jour, ces individus pratiquent les négociations diplomatiques avec les lions imaginaires, naviguant avec finesse entre les alliances familiales et les devoirs chevaleresques.",
+                    "Chaque jour, c'est une Journée de Conversations Franches avec l'Épée d'Or pour toi. Tu maîtrises l'art de la conversation directe, explorant les nuances de l'honneur et du devoir avec la même habileté que tu manies ton épée légendaire.",
             },
             {
-                nom: "Les Débats Intérieurs du Chevalier d'Or",
+                nom: "Journée des Débats Intérieurs du Chevalier Brisé",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un chevalier d'or, cherchant l'équilibre entre l'honneur et les choix difficiles.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un chevalier brisé. Tu jongles entre la loyauté envers ta famille et la recherche de ta propre rédemption, cherchant à trouver l'équilibre entre l'honneur et le devoir.",
             },
             {
-                nom: "La Parade Majestueuse des Armures Polies",
+                nom: "Journée de la Parade Majestueuse des Chevaliers Repentis",
                 description:
-                    "Ces individus participent à des parades majestueuses des armures polies, symbolisant la prestance et la discipline dans leur quête quotidienne de perfection.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Chevaliers Repentis pour toi. Tu célèbres la grandeur et la rédemption, symbolisant ta quête quotidienne de renouveau et d'honneur au sein des chevaliers de Westeros.",
             },
             {
-                nom: "Les Randonnées Tactiques sur les Terres de l'Ouest",
+                nom: "Journée des Randonnées Tactiques sur les Sentiers de la Réparation",
                 description:
-                    "Chaque journée apporte des randonnées tactiques sur les terres de l'Ouest, explorant les territoires et les responsabilités qui accompagnent la loyauté envers sa maison.",
+                    "Chaque journée apporte des randonnées tactiques sur les sentiers de la réparation, explorant les chemins difficiles de la rédemption. Ton esprit stratégique guide chacun de tes pas sur le chemin de la réconciliation avec ton propre code d'honneur.",
             },
             {
-                nom: "La Lutte Contre les Regardes de Pitié",
+                nom: "Journée de la Lutte Contre les Regards Jugés",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regards de pitié, symbolisant les défis de se réconcilier avec le passé et de forger un avenir glorieux.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Jugés. Tu fais face aux défis de l'opprobre et du jugement, montrant avec détermination que l'on peut transcender les préjugés et se forger une nouvelle voie malgré les critiques.",
             },
             {
-                nom: "La Quête du Vin Raffiné comme Réconfort après la Bataille",
+                nom: "Journée de la Quête de l'Épée Forgée dans le Feu de la Rédemption",
                 description:
-                    "Chaque jour, ces individus partent à la quête du vin raffiné, adoptant la subtilité de la dégustation comme un réconfort après les batailles de la vie.",
+                    "Chaque jour, c'est une Journée de la Quête de l'Épée Forgée dans le Feu de la Rédemption pour toi. Tu cherches à forger une nouvelle identité, utilisant le feu de la rédemption pour purifier ton âme et te libérer des chaînes du passé.",
             },
             {
-                nom: "Les Conseils pour Éviter les Liens Contraignants",
+                nom: "Journée des Conseils pour Naviguer dans les Eaux de la Réconciliation",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les liens contraignants, tirant des leçons de leurs propres expériences tumultueuses.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Eaux de la Réconciliation. Tu dispenses des conseils sur la manière de surmonter les obstacles de la rédemption, guidant ceux qui cherchent à réparer leurs erreurs avec honneur et bravoure.",
             },
             {
-                nom: "La Parade des Lions d'Or dans les Cours Royales",
+                nom: "Journée de la Parade des Chevaliers d'Or dans les Cours d'Honneur",
                 description:
-                    "Ces individus participent à des parades des lions d'or dans les cours royales, symbolisant la grandeur et la noblesse qui émanent de leur présence chevaleresque.",
+                    "Les natifs de ce signe participent à des parades des chevaliers d'or dans les cours d'honneur, symbolisant la bravoure et la quête de la rédemption. Ta présence majestueuse et ta volonté de changer inspirent ceux qui aspirent à suivre tes pas.",
             },
             {
-                nom: "Les Danses Élégantes avec les Dames de la Cour",
+                nom: "Journée des Danses Élégantes avec les Dames de Westeros",
                 description:
-                    "Chaque journée offre des danses élégantes avec les dames de la cour, maîtrisant l'art subtil de la conversation et de la séduction avec respect et charme.",
+                    "Chaque journée offre des danses élégantes avec les dames de Westeros, maîtrisant l'art de la courtoisie et de la délicatesse. Ta grâce et ton charme te permettent de tisser des liens sincères avec ceux qui croisent ton chemin.",
             },
             {
-                nom: "Les Épopées Poétiques du Chevalier Honoré",
+                nom: "Journée des Épopées Poétiques du Chevalier Repenti",
                 description:
-                    "Ces individus vivent des épopées poétiques du chevalier honoré, créant des vers épiques pour célébrer la bravoure et la loyauté dans leur propre histoire.",
+                    "Les natifs de ce signe vivent des épopées poétiques du chevalier repenti, créant des chants épiques pour célébrer la transformation personnelle. Chacune de tes actions devient une strophe dans le poème de ta quête de rédemption.",
             },
             {
-                nom: "La Quête Infinie du Sens de l'Identité",
+                nom: "Journée de la Quête Infinie du Sens de la Bravoure Intérieure",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de l'identité, cherchant à trouver leur place dans un monde parfois empreint de préjugés.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de la bravoure intérieure. Tu cherches à trouver la force en toi-même, transcendant les faiblesses passées pour devenir le chevalier héroïque que tu as toujours aspiré à être.",
             },
             {
-                nom: "Les Combats Épiques avec les Épées à Deux Mains",
+                nom: "Journée des Combats Épiques avec les Épées de la Rédemption",
                 description:
-                    "Chaque journée apporte des combats épiques avec les épées à deux mains, symbolisant les défis physiques et émotionnels de manier une arme imposante.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec les Épées de la Rédemption. Tu manies des armes forgées dans le feu de la rédemption, utilisant ton courage et ta détermination pour triompher des épreuves et des doutes qui jalonnent ton chemin.",
             },
             {
-                nom: "La Méditation Profonde sur les Secrets de la Main d'Or",
+                nom: "Journée de la Méditation Profonde sur les Voies de la Réconciliation",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les secrets de la Main d'Or, explorant la complexité des responsabilités et des choix difficiles.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les voies de la réconciliation, explorant les chemins complexes de la paix intérieure. Ta quête de rédemption guide tes réflexions et te conduit vers une compréhension plus profonde de toi-même.",
             },
             {
-                nom: "La Quête du Sens de la Justice dans un Monde de Trahisons",
+                nom: "Journée de la Quête du Sens de la Rédemption Personnelle",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de la justice dans un monde de trahisons, où la loyauté et la morale sont parfois mises à l'épreuve.",
+                    "Chaque journée offre la quête perpétuelle du sens de la rédemption personnelle, où chaque acte héroïque et honorable contribue à la purification de ton âme. Ta détermination à être un meilleur homme inspire ceux qui cherchent également la rédemption.",
             },
             {
-                nom: "Les Conseils Sages des Cours Chevaleresques",
+                nom: "Journée des Conseils Sages des Chevaliers de la Rédemption",
                 description:
-                    "Ces individus dispensent des conseils sages des cours chevaleresques, puisant dans la sagesse des codes d'honneur pour guider leurs actions au quotidien.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Chevaliers de la Rédemption. Tu dispensas des conseils inspirés des chevaliers qui ont réussi à se racheter, utilisant la sagesse acquise pour guider ceux qui aspirent à suivre le chemin de la rédemption.",
             },
             {
-                nom: "La Danse de l'Acier avec les Nuances de Gris",
+                nom: "Journée de la Danse des Épées d'Or avec les Nuances de Bronze",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec l'acier à travers les nuances de gris, symbolisant les choix moraux complexes qui jalonnent leur chemin de vie.",
+                    "Les natifs de ce signe dansent avec les épées d'or à travers les nuances de bronze, symbolisant la force et la noblesse des chevaliers de Westeros. Ta présence noble et ton engagement envers l'honneur font de chaque danse une démonstration de ta quête continue de rédemption.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Forgerons de Renom",
+                nom: "Journée de la Négociation Diplomatique avec les Maisons Honorables",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les forgerons de renom, cherchant à acquérir les meilleures armes et armures.",
+                    "En cette Journée de la Négociation Diplomatique avec les Maisons Honorables, tu excelles dans l'art délicat de forger des alliances basées sur l'honneur et la loyauté. Ta capacité à négocier avec intégrité assure la stabilité et la paix du royaume.",
             },
             {
-                nom: "Les Éclats de Rire dans les Cours des Seigneurs",
+                nom: "Journée des Éclats de Rire Bienveillants dans les Salles d'Honneur",
                 description:
-                    "Inspirés par les éclats de rire dans les cours des seigneurs, ces natifs trouvent l'humour au cœur des situations les plus complexes et des règles strictes de l'étiquette.",
+                    "Pour toi, chaque jour est une Journée des Éclats de Rire Bienveillants dans les Salles d'Honneur. Ton humour chaleureux et compatissant ajoute une touche de légèreté aux moments sérieux, rappelant à tous la noblesse et l'honneur au cœur de la chevalerie.",
             },
         ],
     },
@@ -627,99 +517,99 @@ const characters = [
         astrology: ["Mystique", "Intuitif(ve)", "Rêveur(se)"],
         themes: [
             {
-                nom: "La Quête Éternelle de la Vision Parfaite",
+                nom: "Journée de la Quête Éternelle des Visions Mystiques",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle de la vision parfaite, symbolisant leur recherche constante de compréhension et de clarté dans les mystères du monde.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle des Visions Mystiques. Tu explores constamment les mystères du passé, du présent et du futur, utilisant tes dons uniques pour percer les secrets qui échappent au regard commun.",
             },
             {
-                nom: "Les Conversations Télépathiques avec les Corbeaux",
+                nom: "Journée de Conversations Silencieuses avec les Corbeaux Messagers",
                 description:
-                    "Chaque jour, ces individus pratiquent les conversations télépathiques avec les corbeaux imaginaires, explorant les secrets de la nature à travers une connexion mystique.",
+                    "Chaque jour, c'est une Journée de Conversations Silencieuses avec les Corbeaux Messagers pour toi. Tu te connectes avec les royaumes au-delà du visible, écoutant les murmures du vent et les messages codés des corbeaux, guidé par une sagesse au-delà de ton temps.",
             },
             {
-                nom: "Les Débats Intérieurs du Spectre du Trois Yeux",
+                nom: "Journée des Débats Intérieurs du Navigateur Temporel",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un spectre du trois yeux, naviguant entre le passé, le présent et l'avenir avec sagesse.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un navigateur temporel. Tu jongles entre les choix du passé, du présent et du futur, cherchant à comprendre ton rôle dans la trame complexe du temps.",
             },
             {
-                nom: "La Parade Silencieuse des Chaises à Roulettes",
+                nom: "Journée de la Parade Majestueuse des Gardiens de la Vérité Cachée",
                 description:
-                    "Ces individus participent à des parades silencieuses des chaises à roulettes, symbolisant la puissance tranquille de la mobilité dans leur quête de vérité.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Gardiens de la Vérité Cachée pour toi. Tu célèbres la grandeur et la sagesse, symbolisant ta quête quotidienne pour révéler les vérités enfouies et protéger les secrets du monde.",
             },
             {
-                nom: "Les Randonnées Énigmatiques au-delà du Mur",
+                nom: "Journée des Randonnées Tactiques à Travers les Méandres du Temps",
                 description:
-                    "Chaque journée apporte des randonnées énigmatiques au-delà du Mur, explorant des territoires mystérieux de la vie quotidienne avec une touche de magie nordique.",
+                    "Chaque journée apporte des randonnées tactiques à travers les méandres du temps, explorant les ramifications de chaque décision passée et future. Ton esprit stratégique guide chacun de tes pas sur le chemin de la destinée.",
             },
             {
-                nom: "La Lutte Contre les Pertes de Mémoire Temporelles",
+                nom: "Journée de la Lutte Contre les Regards Perçants",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les pertes de mémoire temporelles, symbolisant les défis de maintenir une connexion constante avec le continuum temporel.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Perçants. Tu fais face aux défis d'une perception aiguë et parfois déconcertante, montrant avec calme que la sagesse transcende souvent les apparences.",
             },
             {
-                nom: "La Quête du Thé Vert pour Stimuler la Clairvoyance",
+                nom: "Journée de la Quête de la Sagesse Ancienne des Trois Yeux",
                 description:
-                    "Chaque jour, ces individus partent à la quête du thé vert parfait, adoptant la clairvoyance comme un objectif dans leur recherche de stimulants mentaux.",
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Ancienne des Trois Yeux pour toi. Tu t'immerges dans la sagesse ancienne, cherchant à comprendre les mystères qui échappent à la compréhension normale, guidé par une vision au-delà du commun.",
             },
             {
-                nom: "Les Conseils pour Éviter les Rencontres avec le Roi de la Nuit",
+                nom: "Journée des Conseils pour Naviguer à Travers les Courants Temporels",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les rencontres avec le Roi de la Nuit, tirant des leçons de la bataille contre les forces du mal.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer à Travers les Courants Temporels. Tu dispenses des conseils sur la manière de naviguer dans les méandres du temps, guidant ceux qui cherchent à comprendre les échos du passé et les murmures du futur.",
             },
             {
-                nom: "La Parade des Loups-Garous dans les Allées du Temps",
+                nom: "Journée de la Parade des Gardiens des Étoiles Filantes",
                 description:
-                    "Ces individus participent à des parades des loups-garous dans les allées du temps, symbolisant la loyauté et la présence constante des compagnons intemporels.",
+                    "Les natifs de ce signe participent à des parades des gardiens des étoiles filantes, symbolisant la connexion entre le cosmos et la terre. Ta présence majestueuse et ta compréhension des mystères célestes font de chaque apparition un spectacle céleste.",
             },
             {
-                nom: "Les Voyages Astraux à dos de Corbeau",
+                nom: "Journée des Danses Silencieuses avec les Esprits de la Nature",
                 description:
-                    "Chaque journée offre des voyages astraux à dos de corbeau, explorant les dimensions spirituelles avec une grâce aérienne unique.",
+                    "Chaque journée offre des danses silencieuses avec les esprits de la nature, maîtrisant l'art de la communion avec le monde qui t'entoure. Ta grâce et ton harmonie avec les éléments font de chaque danse un acte de célébration de la vie.",
             },
             {
-                nom: "Les Épopées Poétiques du Greenseer Enigmatique",
+                nom: "Journée des Épopées Poétiques du Visionnaire du Temps",
                 description:
-                    "Ces individus vivent des épopées poétiques du greenseer énigmatique, créant des vers épiques pour narrer les mystères de la nature et du destin.",
+                    "Les natifs de ce signe vivent des épopées poétiques du visionnaire du temps, créant des chants épiques pour célébrer la compréhension des mystères temporels. Chacune de tes visions devient une strophe dans le poème de ton voyage spirituel.",
             },
             {
-                nom: "La Quête Infinie de la Vérité Universelle",
+                nom: "Journée de la Quête Infinie du Sens du Destin Éternel",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie de la vérité universelle, cherchant à percer les secrets cachés du cosmos.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens du destin éternel. Tu cherches à comprendre ta place dans le vaste tissu du temps, explorant les méandres du destin avec une sagesse qui dépasse les limites humaines.",
             },
             {
-                nom: "Les Combats Épiques avec les Fauteuils Roulants Magiques",
+                nom: "Journée des Combats Épiques avec les Épées de la Clairvoyance",
                 description:
-                    "Chaque journée apporte des combats épiques avec les fauteuils roulants magiques, symbolisant les défis de la vie quotidienne avec une touche de mysticisme.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec les Épées de la Clairvoyance. Tu manies des armes forgées dans la clairvoyance, utilisant ta vision du temps pour anticiper les mouvements futurs et guider ceux qui suivent ton exemple.",
             },
             {
-                nom: "La Méditation Profonde sur les Secrets du Corbeau Trois Yeux",
+                nom: "Journée de la Méditation Profonde sur les Horizons Infinis",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les secrets du corbeau à trois yeux, explorant les mystères cachés de leur propre conscience.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les horizons infinis, explorant les possibilités infinies du temps. Ta contemplation te connecte aux flux temporels, révélant des vérités qui échappent à la perception normale.",
             },
             {
-                nom: "La Quête du Sens de la Présence dans un Monde Distordu",
+                nom: "Journée de la Quête du Sens de l'Existence Intemporelle",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de la présence dans un monde distordu, où la réalité peut être aussi fluide que le temps lui-même.",
+                    "Chaque journée offre la quête perpétuelle du sens de l'existence intemporelle, où le temps n'est qu'un fil dans le tissu de ton être. Ta recherche de la vérité transcende les limitations temporelles, te guidant vers une compréhension plus profonde de l'univers.",
             },
             {
-                nom: "Les Conseils Sages des Racines Anciennes",
+                nom: "Journée des Conseils Sages des Gardiens du Passé et du Futur",
                 description:
-                    "Ces individus dispensent des conseils sages des racines anciennes, puisant dans la sagesse de l'histoire pour guider leurs actions au quotidien.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Gardiens du Passé et du Futur. Tu dispensas des conseils inspirés des gardiens qui comprennent les mystères temporels, utilisant la sagesse ancienne pour guider ceux qui cherchent à naviguer dans les courants du temps.",
             },
             {
-                nom: "La Danse des Visions avec les Nuances de Vert",
+                nom: "Journée de la Danse des Étoiles Filantes avec les Nuances de Vert",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec les visions à travers les nuances de vert, symbolisant les choix éthérés et les mystères du destin.",
+                    "Les natifs de ce signe dansent avec les étoiles filantes à travers les nuances de vert, symbolisant la connexion entre la terre et le cosmos. Ta présence mystique et ton lien avec les étoiles font de chaque danse une célébration de l'harmonie cosmique.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Esprits de la Nature",
+                nom: "Journée de la Négociation Spirituelle avec les Esprits Anciens",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les esprits de la nature, cherchant l'harmonie avec les forces mystiques.",
+                    "En cette Journée de la Négociation Spirituelle avec les Esprits Anciens, tu excelles dans l'art délicat de la communion avec les forces mystiques. Ta capacité à négocier avec les esprits assure l'équilibre entre le monde visible et invisible, guidant ton chemin dans le destin.",
             },
             {
-                nom: "Les Éclats de Rire dans les Vortex Temporels",
+                nom: "Journée des Éclats de Rire Bienveillants avec les Arbres Anciens",
                 description:
-                    "Inspirés par les éclats de rire dans les vortex temporels, ces natifs trouvent l'humour au cœur des paradoxes et des réalités complexes de l'existence.",
+                    "Pour toi, chaque jour est une Journée des Éclats de Rire Bienveillants avec les Arbres Anciens. Ton rire résonne à travers les forêts anciennes, symbolisant la joie et l'harmonie que tu apportes au monde en tant que gardien du temps.",
             },
         ],
     },
@@ -728,99 +618,99 @@ const characters = [
         astrology: ["Débrouillard", "Emotif(ve)", "Intelectuel(le)"],
         themes: [
             {
-                nom: "La Quête Éternelle du Livre Parfait",
+                nom: "Journée de la Quête Éternelle du Savoir Bienveillant",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle du livre parfait, symbolisant leur recherche constante de connaissances et de sagesse dans les pages de la vie.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle du Savoir Bienveillant. Tu cherches constamment à élargir tes connaissances, utilisant ton amour pour l'apprentissage pour éclairer le monde qui t'entoure de manière bienveillante.",
             },
             {
-                nom: "Les Discussions Érudites avec les Dragons de Bibliothèque",
+                nom: "Journée de Conversations Empathiques avec les Livres Anciens",
                 description:
-                    "Chaque jour, ces individus pratiquent les discussions érudites avec les dragons de bibliothèque imaginaires, explorant les trésors cachés de la littérature.",
+                    "Chaque jour, c'est une Journée de Conversations Empathiques avec les Livres Anciens pour toi. Tu te connectes avec la sagesse des siècles passés, écoutant les histoires et les enseignements des pages jaunies, guidé par un cœur empli d'empathie.",
             },
             {
-                nom: "Les Débats Intérieurs du Maître de la Connaissance",
+                nom: "Journée des Débats Intérieurs du Sage au Cœur Tendre",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un maître de la connaissance, naviguant entre l'intelligence et la timidité avec délicatesse.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un sage au cœur tendre. Tu jongles entre la force de la connaissance et la douceur du cœur, cherchant à trouver l'équilibre entre la sagesse et la compassion.",
             },
             {
-                nom: "La Parade Tranquille des Lunettes Astucieuses",
+                nom: "Journée de la Parade Majestueuse des Protecteurs de la Connaissance",
                 description:
-                    "Ces individus participent à des parades tranquilles des lunettes astucieuses, symbolisant la clarté et la perspicacité dans leur quête quotidienne de vérité.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Protecteurs de la Connaissance pour toi. Tu célèbres la grandeur de la sagesse, symbolisant ta quête quotidienne pour protéger et partager le savoir qui peut éclairer les ténèbres.",
             },
             {
-                nom: "Les Randonnées Savantes dans les Allées des Grandes Bibliothèques",
+                nom: "Journée des Randonnées Tactiques à Travers les Bibliothèques du Savoir",
                 description:
-                    "Chaque journée apporte des randonnées savantes dans les allées des grandes bibliothèques, explorant les recoins les plus érudits du savoir.",
+                    "Chaque journée apporte des randonnées tactiques à travers les bibliothèques du savoir, explorant les rayons de la connaissance avec une stratégie méticuleuse. Ton esprit analytique guide chacun de tes pas sur le chemin de la compréhension profonde.",
             },
             {
-                nom: "La Lutte Contre les Regardes Désapprobateurs",
+                nom: "Journée de la Lutte Contre les Regards Désobligeants",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regardes désapprobateurs, symbolisant les défis de maintenir la confiance en soi dans un monde parfois critique.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Désobligeants. Tu fais face aux défis du jugement et de la désapprobation, montrant avec courage que la bienveillance et la connaissance sont des atouts plus précieux que la critique.",
             },
             {
-                nom: "La Quête du Thé Relaxant pour Calmer les Nerfs",
+                nom: "Journée de la Quête de la Sagesse Bienfaisante des Livres",
                 description:
-                    "Chaque jour, ces individus partent à la quête du thé relaxant, adoptant la sérénité comme un remède pour apaiser les nerfs agités.",
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Bienfaisante des Livres pour toi. Tu t'imprègnes de la sagesse bienveillante des écrits, cherchant à comprendre les secrets du monde avec une bienveillance qui illumine même les pages les plus sombres.",
             },
             {
-                nom: "Les Conseils pour Éviter les Querelles dans la Salle Commune",
+                nom: "Journée des Conseils pour Naviguer avec la Boussole du Cœur",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les querelles dans la salle commune, tirant des leçons de la diplomatie nécessaire au sein de groupes divers.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer avec la Boussole du Cœur. Tu dispenses des conseils sur la manière de naviguer à travers les océans de la vie avec compassion, guidant ceux qui cherchent à trouver la direction dans le tumulte du monde.",
             },
             {
-                nom: "La Parade des Livres Célèbres dans les Salons de Savoir",
+                nom: "Journée de la Parade des Gardiens des Connaissances Anciennes",
                 description:
-                    "Ces individus participent à des parades des livres célèbres dans les salons de savoir, symbolisant la célébration de la littérature et de la culture.",
+                    "Les natifs de ce signe participent à des parades des gardiens des connaissances anciennes, symbolisant la préservation et la transmission du savoir. Ta présence bienveillante et ta dévotion envers la sagesse font de chaque apparition un acte de célébration de l'apprentissage.",
             },
             {
-                nom: "Les Discussions Calmes avec les Esprits Littéraires",
+                nom: "Journée des Danses Bienveillantes avec les Âmes Curieuses",
                 description:
-                    "Chaque journée offre des discussions calmes avec les esprits littéraires, maîtrisant l'art subtil de la conversation intellectuelle et imaginative.",
+                    "Chaque journée offre des danses bienveillantes avec les âmes curieuses, maîtrisant l'art de partager la connaissance avec douceur. Ta patience et ta compréhension font de chaque danse un moment d'échange et d'enrichissement mutuel.",
             },
             {
-                nom: "Les Épopées Poétiques de l'Érudit Bienveillant",
+                nom: "Journée des Épopées Poétiques du Chercheur de Vérité Bienveillant",
                 description:
-                    "Ces individus vivent des épopées poétiques de l'érudit bienveillant, créant des vers épiques pour célébrer la bienveillance et la quête du savoir.",
+                    "Les natifs de ce signe vivent des épopées poétiques du chercheur de vérité bienveillant, créant des chants épiques pour célébrer la quête de la sagesse bienveillante. Chacune de tes découvertes devient une strophe dans le poème de ton voyage intellectuel.",
             },
             {
-                nom: "La Quête Infinie du Sens de la Compassion",
+                nom: "Journée de la Quête Infinie du Sens de l'Empathie Lumineuse",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de la compassion, cherchant à comprendre et à apporter du réconfort aux autres.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de l'empathie lumineuse. Tu cherches à comprendre et à apaiser les souffrances du monde, utilisant ton cœur compatissant comme une lumière bienveillante dans l'obscurité.",
             },
             {
-                nom: "Les Combats Épiques avec les Piles de Manuscrits",
+                nom: "Journée des Combats Épiques avec la Plume de la Connaissance",
                 description:
-                    "Chaque journée apporte des combats épiques avec les piles de manuscrits, symbolisant les défis de gérer la richesse infinie du savoir à disposition.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec la Plume de la Connaissance. Tu manies une plume forgée dans l'encre de la sagesse, utilisant tes mots pour combattre l'ignorance et répandre la lumière de la vérité dans chaque recoin du monde.",
             },
             {
-                nom: "La Méditation Profonde sur les Mystères des Anciens Textes",
+                nom: "Journée de la Méditation Profonde sur les Rivières du Savoir",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les mystères des anciens textes, explorant la sagesse cachée derrière les mots.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les rivières du savoir, explorant les flux inépuisables de la connaissance. Ta contemplation te connecte aux sources de la sagesse, révélant des vérités qui échappent à une compréhension superficielle.",
             },
             {
-                nom: "La Quête du Sens de l'Honnêteté dans un Monde de Fictions",
+                nom: "Journée de la Quête du Sens de la Bonté Éclairée",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de l'honnêteté dans un monde de fictions, où la vérité peut parfois être plus étrange que la fiction.",
+                    "Chaque journée offre la quête perpétuelle du sens de la bonté éclairée, où chaque acte bienveillant contribue à illuminer le monde. Ta détermination à répandre la bonté inspire ceux qui cherchent également à rendre le monde meilleur.",
             },
             {
-                nom: "Les Conseils Sages des Archivistes Bienveillants",
+                nom: "Journée des Conseils Sages des Gardiens du Savoir Bienveillant",
                 description:
-                    "Ces individus dispensent des conseils sages des archivistes bienveillants, puisant dans la sagesse des gardiens du savoir pour guider leurs actions au quotidien.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Gardiens du Savoir Bienveillant. Tu dispensas des conseils inspirés des gardiens qui comprennent la valeur de la sagesse bienveillante, utilisant la compassion pour guider ceux qui aspirent à embrasser la lumière de la connaissance.",
             },
             {
-                nom: "La Danse des Lunettes avec les Nuances de Bleu",
+                nom: "Journée de la Danse des Lumières avec les Nuances de Bleu",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec les lunettes à travers les nuances de bleu, symbolisant les choix clairs et la vision perspicace de la vie.",
+                    "Les natifs de ce signe dansent avec les lumières à travers les nuances de bleu, symbolisant la sérénité et la vérité de la sagesse bienveillante. Ta présence rayonnante et ta quête constante de la vérité font de chaque danse une célébration de l'éclat du savoir.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Libraires Intrépides",
+                nom: "Journée de la Négociation Bienveillante avec les Âmes Curieuses",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les libraires intrépides, cherchant à acquérir les trésors littéraires les plus rares.",
+                    "En cette Journée de la Négociation Bienveillante avec les Âmes Curieuses, tu excelles dans l'art délicat de partager la connaissance avec douceur. Ta capacité à inspirer et à éduquer assure l'essor de la bienveillance et de la sagesse dans le monde.",
             },
             {
-                nom: "Les Éclats de Rire dans les Clubs de Lecture Secret",
+                nom: "Journée des Éclats de Rire Bienveillants avec les Papillons du Savoir",
                 description:
-                    "Inspirés par les éclats de rire dans les clubs de lecture secrets, ces natifs trouvent l'humour au cœur des aventures intellectuelles et des découvertes littéraires.",
+                    "Pour toi, chaque jour est une Journée des Éclats de Rire Bienveillants avec les Papillons du Savoir. Ton rire léger et bienveillant ajoute une touche de joie aux moments sérieux, rappelant à tous que la connaissance peut être source de bonheur et de compréhension.",
             },
         ],
     },
@@ -829,99 +719,99 @@ const characters = [
         astrology: ["Aventureux(se)", "Indépendant(e)", "Déterminé(e)"],
         themes: [
             {
-                nom: "La Quête Éternelle de la Liste Parfaite",
+                nom: "Journée de la Quête Éternelle de l'Identité Indomptable",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle de la liste parfaite, symbolisant leur recherche constante de justice et de vengeance dans un monde complexe.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle de l'Identité Indomptable. Tu explores constamment les aspects changeants de ton être, utilisant ta détermination pour forger une identité aussi forte et résiliente que l'acier de Needle.",
             },
             {
-                nom: "Les Conversations Silencieuses avec les Visages Sans Nom",
+                nom: "Journée de Conversations Silencieuses avec les Ombres de l'Ombre",
                 description:
-                    "Chaque jour, ces individus pratiquent les conversations silencieuses avec les visages sans nom imaginaires, explorant les secrets de l'identité et de la transformation.",
+                    "Chaque jour, c'est une Journée de Conversations Silencieuses avec les Ombres de l'Ombre pour toi. Tu te connectes avec les mystères de l'infiltration et de l'observation, écoutant les murmures des ombres et des secrets, guidé par une détermination inébranlable.",
             },
             {
-                nom: "Les Débats Intérieurs de la Tueuse Impitoyable",
+                nom: "Journée des Débats Intérieurs de l'Artisan de la Disparition",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'une tueuse impitoyable, jonglant entre la loyauté, la justice et la vengeance.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un artisan de la disparition. Tu jongles entre les choix difficiles de la vie d'une personne sans visage, cherchant à comprendre le prix de la liberté et de la vengeance.",
             },
             {
-                nom: "La Parade Furtive des Capes Noires",
+                nom: "Journée de la Parade Majestueuse des Chasseurs de Noms",
                 description:
-                    "Ces individus participent à des parades furtives des capes noires, symbolisant l'agilité et la discrétion dans leur quête quotidienne d'évasion et de justice personnelle.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Chasseurs de Noms pour toi. Tu célèbres la grandeur de la quête de justice personnelle, symbolisant ta détermination quotidienne pour marquer ceux qui ont marqué les tiens.",
             },
             {
-                nom: "Les Randonnées Discrètes dans les Ruelles d'Essos",
+                nom: "Journée des Randonnées Tactiques à Travers les Sentiers de l'Ombre",
                 description:
-                    "Chaque journée apporte des randonnées discrètes dans les ruelles d'Essos, explorant les cultures et les mystères des terres lointaines.",
+                    "Chaque journée apporte des randonnées tactiques à travers les sentiers de l'ombre, explorant les chemins dissimulés de l'infiltration et de l'évasion. Ton esprit stratégique guide chacun de tes pas sur le chemin de la liberté.",
             },
             {
-                nom: "La Lutte Contre les Regardes Indiscrets",
+                nom: "Journée de la Lutte Contre les Regards Inquisiteurs",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regardes indiscrets, symbolisant les défis de préserver son identité et ses secrets dans un monde curieux.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Inquisiteurs. Tu fais face aux défis des regards scrutateurs, montrant avec ferveur que ton indépendance et ta détermination éclipsent toute tentative de te comprendre pleinement.",
             },
             {
-                nom: "La Quête du Thé Tonique pour Aiguiser les Sens",
+                nom: "Journée de la Quête de la Sagesse des Visages Changeants",
                 description:
-                    "Chaque jour, ces individus partent à la quête du thé tonique, adoptant la vivacité d'esprit comme une arme aiguisée dans leur recherche constante de survie.",
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse des Visages Changeants pour toi. Tu t'immerges dans la sagesse des visages changeants, cherchant à comprendre la véritable nature de l'identité à travers les masques que tu portes.",
             },
             {
-                nom: "Les Conseils pour Éviter les Liens Émotionnels Inutiles",
+                nom: "Journée des Conseils pour Naviguer dans les Courants de l'Ombre",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les liens émotionnels inutiles, tirant des leçons de leur propre parcours solitaire et déterminé.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Courants de l'Ombre. Tu dispenses des conseils sur la manière de se fondre dans l'obscurité, guidant ceux qui cherchent à comprendre les secrets cachés dans les recoins les plus sombres du monde.",
             },
             {
-                nom: "La Parade des Loups dans les Forêts Sombres",
+                nom: "Journée de la Parade des Chasseurs d'Aventures Interdites",
                 description:
-                    "Ces individus participent à des parades des loups dans les forêts sombres, symbolisant la connexion profonde avec les instincts sauvages et la nature.",
+                    "Les natifs de ce signe participent à des parades des chasseurs d'aventures interdites, symbolisant la quête audacieuse de justice et de liberté. Ta présence déterminée et ta capacité à défier les conventions font de chaque apparition un acte de célébration de l'indépendance.",
             },
             {
-                nom: "Les Danses Furtives avec les Ombres de Braavos",
+                nom: "Journée des Danses Silencieuses avec les Âmes Rebelle",
                 description:
-                    "Chaque journée offre des danses furtives avec les ombres de Braavos, maîtrisant l'art subtil de la dissimulation et de l'infiltration.",
+                    "Chaque journée offre des danses silencieuses avec les âmes rebelles, maîtrisant l'art de l'expression sans mots. Ta grâce et ta détermination font de chaque danse une déclaration de liberté et d'individualité.",
             },
             {
-                nom: "Les Épopées Poétiques de la Vagabonde Intrépide",
+                nom: "Journée des Épopées Poétiques de la Vagabonde Intrépide",
                 description:
-                    "Ces individus vivent des épopées poétiques de la vagabonde intrépide, créant des vers épiques pour célébrer la liberté et la force d'une vie non conventionnelle.",
+                    "Les natifs de ce signe vivent des épopées poétiques de la vagabonde intrépide, créant des chants épiques pour célébrer la quête de la vérité personnelle. Chacun de tes pas devient une strophe dans le poème de ton voyage solitaire.",
             },
             {
-                nom: "La Quête Infinie du Sens de la Liberté",
+                nom: "Journée de la Quête Infinie du Sens de la Liberté Indomptable",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de la liberté, cherchant à échapper aux chaînes du passé et à forger leur propre destin.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de la liberté indomptable. Tu cherches à comprendre et à défier les limites imposées, utilisant ta détermination pour briser les chaînes qui entravent l'esprit.",
             },
             {
-                nom: "Les Combats Épiques avec les Épées d'Aiguilles",
+                nom: "Journée des Combats Épiques avec l'Aiguille de la Vengeance",
                 description:
-                    "Chaque journée apporte des combats épiques avec les épées d'Aiguilles, symbolisant les défis de manier une arme légendaire avec précision et détermination.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec l'Aiguille de la Vengeance. Tu manies une lame forgée dans le feu de la colère justifiée, utilisant ta détermination pour traquer ceux qui ont causé du tort à tes proches et à toi-même.",
             },
             {
-                nom: "La Méditation Profonde sur les Mystères des Visages Sans Nom",
+                nom: "Journée de la Méditation Profonde sur les Eaux Troubles de l'Identité",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les mystères des visages sans nom, explorant la complexité de l'identité et de la métamorphose.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les eaux troubles de l'identité, explorant les reflets changeants de qui ils sont. Ta contemplation te connecte aux flux de l'âme, révélant des vérités qui échappent à une compréhension superficielle.",
             },
             {
-                nom: "La Quête du Sens de l'Indépendance dans un Monde d'Intrigues",
+                nom: "Journée de la Quête du Sens de la Vengeance Juste",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de l'indépendance dans un monde d'intrigues, où la liberté personnelle est souvent sacrifiée au nom du pouvoir.",
+                    "Chaque journée offre la quête perpétuelle du sens de la vengeance juste, où chaque acte de justice est un pas vers l'équilibre. Ta détermination à rétablir l'équité inspire ceux qui cherchent également à combattre pour la vérité.",
             },
             {
-                nom: "Les Conseils Sages des Maîtres d'Armes Secrets",
+                nom: "Journée des Conseils Sages des Chasseurs d'Injustices",
                 description:
-                    "Ces individus dispensent des conseils sages des maîtres d'armes secrets, puisant dans la sagesse des entraînements discrets pour guider leurs actions au quotidien.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Chasseurs d'Injustices. Tu dispensas des conseils inspirés des chasseurs qui comprennent les subtilités de la justice personnelle, utilisant ta sagesse pour guider ceux qui cherchent à défier les injustices du monde.",
             },
             {
-                nom: "La Danse des Lames avec les Nuances de Rouge",
+                nom: "Journée de la Danse des Lames avec les Nuances de Rouge",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec les lames à travers les nuances de rouge, symbolisant la force, la détermination et le sang versé dans leur parcours.",
+                    "Les natifs de ce signe dansent avec les lames à travers les nuances de rouge, symbolisant la passion et la détermination dans la quête de la vérité. Ta présence féroce et ta connexion avec l'acier font de chaque danse une célébration de la force intérieure.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Marchands de Masques",
+                nom: "Journée de la Négociation Intrépide avec les Ombres de la Vérité",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les marchands de masques, ajoutant une touche de mystère à leurs alliances.",
+                    "En cette Journée de la Négociation Intrépide avec les Ombres de la Vérité, tu excelles dans l'art délicat de démêler les mystères cachés. Ta capacité à négocier avec les ombres assure la révélation de la vérité, guidant ton chemin dans la quête de justice.",
             },
             {
-                nom: "Les Éclats de Rire dans les Cours des Ombres",
+                nom: "Journée des Éclats de Rire Indomptables avec les Loups Errants",
                 description:
-                    "Inspirés par les éclats de rire dans les cours des ombres, ces natifs trouvent l'humour au cœur des situations les plus sombres et des choix difficiles.",
+                    "Pour toi, chaque jour est une Journée des Éclats de Rire Indomptables avec les Loups Errants. Ton rire libre et indomptable résonne à travers les contrées sauvages, symbolisant la liberté et la détermination que tu apportes au monde en tant que loup solitaire.",
             },
         ],
     },
@@ -930,99 +820,99 @@ const characters = [
         astrology: ["Dictateur(trice)", "Autoritaire", "Ambitieux(se)"],
         themes: [
             {
-                nom: "La Quête Éternelle du Devoir Inébranlable",
+                nom: "Journée de la Quête Éternelle du Devoir Inflexible",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle du devoir inébranlable, symbolisant leur recherche constante de justice et de discipline dans un monde en proie au chaos.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle du Devoir Inflexible. Tu poursuis constamment le chemin de la loyauté et de l'obligation, utilisant ta détermination pour honorer les principes qui guident tes actions.",
             },
             {
-                nom: "Les Conversations Sérieuses avec l'Ombre de Melisandre",
+                nom: "Journée de Conversations Solennelles avec les Ombres du Destin",
                 description:
-                    "Chaque jour, ces individus pratiquent les conversations sérieuses avec l'ombre de Melisandre imaginaires, explorant les mystères du pouvoir magique et des choix prophétiques.",
+                    "Chaque jour, c'est une Journée de Conversations Solennelles avec les Ombres du Destin pour toi. Tu te connectes avec les mystères du futur, écoutant les murmures du destin, guidé par une détermination inébranlable à forger ton propre chemin.",
             },
             {
-                nom: "Les Débats Intérieurs du Justicier Implacable",
+                nom: "Journée des Débats Intérieurs du Gardien de la Justice Implacable",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un justicier implacable, naviguant entre la rigueur morale et la dureté nécessaire.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un gardien de la justice implacable. Tu jongles entre les choix difficiles de l'ordre et de la rigueur, cherchant à instaurer la justice même lorsque les sacrifices sont inévitables.",
             },
             {
-                nom: "La Parade Rigide des Soldats Disciplinés",
+                nom: "Journée de la Parade Majestueuse des Protecteurs de la Droiture",
                 description:
-                    "Ces individus participent à des parades rigides des soldats disciplinés, symbolisant la fermeté et l'ordre dans leur quête quotidienne de conquête et de justice.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Protecteurs de la Droiture pour toi. Tu célèbres la grandeur de la droiture, symbolisant ta quête quotidienne pour maintenir l'ordre et la justice dans un monde souvent en proie au chaos.",
             },
             {
-                nom: "Les Randonnées Intransigeantes sur les Terres de Dragonstone",
+                nom: "Journée des Randonnées Tactiques à Travers les Sentiers de la Discipline",
                 description:
-                    "Chaque journée apporte des randonnées intransigeantes sur les terres de Dragonstone, explorant les territoires inhospitaliers avec détermination et dévouement.",
+                    "Chaque journée apporte des randonnées tactiques à travers les sentiers de la discipline, explorant les chemins rigoureux de l'entraînement et de l'ordre. Ton esprit stratégique guide chacun de tes pas sur le chemin de la victoire.",
             },
             {
-                nom: "La Lutte Contre les Regards Condescendants",
+                nom: "Journée de la Lutte Contre les Regards Indisciplinés",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regards condescendants, symbolisant les défis de se faire respecter dans un monde où la loyauté est rare.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Indisciplinés. Tu fais face aux défis des regards critiques, montrant avec fermeté que la discipline et la détermination sont les piliers de la véritable force.",
             },
             {
-                nom: "La Quête du Café Fort pour Affronter les Tempêtes",
+                nom: "Journée de la Quête de la Sagesse Inébranlable du Devoir",
                 description:
-                    "Chaque jour, ces individus partent à la quête du café fort, adoptant la force intérieure comme une arme pour affronter les tempêtes de la vie.",
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Inébranlable du Devoir pour toi. Tu t'imprègnes de la sagesse inébranlable du devoir, cherchant à comprendre les vérités éternelles qui guident tes actions et tes choix.",
             },
             {
-                nom: "Les Conseils pour Éviter les Intrigues Courtoises",
+                nom: "Journée des Conseils pour Naviguer à Travers les Tempêtes de la Vie",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les intrigues courtoises, tirant des leçons de leur propre expérience avec les jeux politiques et les manipulations.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer à Travers les Tempêtes de la Vie. Tu dispenses des conseils sur la manière de rester fort face à l'adversité, guidant ceux qui cherchent à maintenir le cap malgré les tumultes du destin.",
             },
             {
-                nom: "La Parade des Lions de Fer dans les Salles du Trône",
+                nom: "Journée de la Parade des Gardiens de la Droiture Absolue",
                 description:
-                    "Ces individus participent à des parades des lions de fer dans les salles du trône, symbolisant la résilience et la détermination face aux adversités.",
+                    "Les natifs de ce signe participent à des parades des gardiens de la droiture absolue, symbolisant la défense inflexible de la justice. Ta présence majestueuse et ta dévotion envers la droiture font de chaque apparition un acte de célébration de l'ordre juste.",
             },
             {
-                nom: "Les Danses Rigides avec les Ladies de la Cour",
+                nom: "Journée des Danses Solennelles avec les Esprits de la Loi",
                 description:
-                    "Chaque journée offre des danses rigides avec les ladies de la cour, maîtrisant l'art subtil de la politesse et de la courtoisie avec une approche formelle.",
+                    "Chaque journée offre des danses solennelles avec les esprits de la loi, maîtrisant l'art de l'harmonie entre l'ordre et la justice. Ta grâce et ta rigueur font de chaque danse une déclaration de la nécessité d'une conduite irréprochable.",
             },
             {
-                nom: "Les Épopées Poétiques du Seigneur Juste",
+                nom: "Journée des Épopées Poétiques du Défenseur Intransigeant",
                 description:
-                    "Ces individus vivent des épopées poétiques du seigneur juste, créant des vers épiques pour célébrer la quête inflexible de la vérité et de l'équité.",
+                    "Les natifs de ce signe vivent des épopées poétiques du défenseur intransigeant, créant des chants épiques pour célébrer la quête éternelle de l'ordre. Chacun de tes actes devient une strophe dans le poème de ton engagement envers la justice.",
             },
             {
-                nom: "La Quête Infinie du Sens du Sacrifice",
+                nom: "Journée de la Quête Infinie du Sens de l'Honneur Inaltérable",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens du sacrifice, cherchant à prendre des décisions difficiles pour le bien commun.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de l'honneur inaltérable. Tu cherches à comprendre et à défendre les valeurs qui définissent ton caractère, utilisant ta détermination pour protéger l'intégrité à tout prix.",
             },
             {
-                nom: "Les Combats Épiques avec les Épées en Flammes",
+                nom: "Journée des Combats Épiques avec la Lance de la Justice",
                 description:
-                    "Chaque journée apporte des combats épiques avec les épées enflammées, symbolisant les défis de manier une arme imprégnée de la puissance magique du feu.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec la Lance de la Justice. Tu manies une lance forgée dans la forge de la droiture, utilisant ta détermination pour combattre l'injustice et défendre les idéaux qui te sont chers.",
             },
             {
-                nom: "La Méditation Profonde sur les Stratégies de Guerre",
+                nom: "Journée de la Méditation Profonde sur les Rochers Inébranlables de la Justice",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les stratégies de guerre, explorant la complexité des batailles et des plans tactiques.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les rochers inébranlables de la justice, explorant les fondations solides sur lesquelles reposent tes principes. Ta contemplation te connecte aux piliers de la droiture, révélant des vérités qui échappent à une compréhension superficielle.",
             },
             {
-                nom: "La Quête du Sens de la Justice dans un Monde Corrompu",
+                nom: "Journée de la Quête du Sens de la Justice Implacable",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de la justice dans un monde corrompu, où la loyauté envers des principes inébranlables est mise à l'épreuve.",
+                    "Chaque journée offre la quête perpétuelle du sens de la justice implacable, où chaque acte est guidé par la nécessité de maintenir l'ordre. Ta détermination à poursuivre la voie juste inspire ceux qui cherchent également à défendre la vérité.",
             },
             {
-                nom: "Les Conseils Sages des Chevaliers Loyaux",
+                nom: "Journée des Conseils Sages des Gardiens de la Loi Intransigeante",
                 description:
-                    "Ces individus dispensent des conseils sages des chevaliers loyaux, puisant dans la sagesse des camarades d'armes pour guider leurs actions au quotidien.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Gardiens de la Loi Intransigeante. Tu dispensas des conseils inspirés des gardiens qui comprennent la valeur de la loi intransigeante, utilisant ta sagesse pour guider ceux qui aspirent à suivre un chemin de droiture.",
             },
             {
-                nom: "La Danse de l'Acier avec les Nuances d'Azur",
+                nom: "Journée de la Danse des Épées avec les Nuances d'Acier",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec l'acier à travers les nuances d'azur, symbolisant la force et la clarté de leurs convictions.",
+                    "Les natifs de ce signe dansent avec les épées à travers les nuances d'acier, symbolisant la force et la précision dans la quête de la justice. Ta présence imposante et ta maîtrise de l'épée font de chaque danse une célébration de la puissance justicière.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Prêtres de R'hllor",
+                nom: "Journée de la Négociation Implacable avec les Esprits de l'Équité",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les prêtres de R'hllor, cherchant à équilibrer la foi et la réalpolitik.",
+                    "En cette Journée de la Négociation Implacable avec les Esprits de l'Équité, tu excelles dans l'art délicat de trouver le juste équilibre. Ta capacité à négocier avec les esprits assure l'harmonie entre la rigueur et la justice, guidant ton chemin dans la quête d'une société juste.",
             },
             {
-                nom: "Les Éclats de Rire Stratégiques dans les Salles du Trône",
+                nom: "Journée des Éclats de Rire Résolus avec les Lions de la Loyauté",
                 description:
-                    "Inspirés par les éclats de rire stratégiques dans les salles du trône, ces natifs trouvent l'humour au cœur des situations politiques les plus complexes.",
+                    "Pour toi, chaque jour est une Journée des Éclats de Rire Résolus avec les Lions de la Loyauté. Ton rire résolu résonne à travers les salles du pouvoir, symbolisant la fermeté et l'intégrité que tu apportes au monde en tant que gardien inflexible de l'ordre.",
             },
         ],
     },
@@ -1031,99 +921,134 @@ const characters = [
         astrology: ["Charismatique, Diplomate, Ambitieux(se)"],
         themes: [
             {
-                nom: "La Quête Éternelle de l'Élégance Irrésistible",
+                nom: "Journée de la Quête Éternelle de l'Élégance Envoûtante",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle de l'élégance irrésistible, symbolisant leur recherche constante de beauté et de charme dans un monde avide de glamour.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle de l'Élégance Envoûtante. Tu cultives constamment une aura d'élégance et de charme, utilisant ta grâce naturelle pour captiver ceux qui ont le privilège de partager ton espace.",
             },
             {
-                nom: "Les Conversations Envoûtantes avec les Rosiers Enchantés",
+                nom: "Journée de Conversations Enchantées avec les Pétales de la Politique",
                 description:
-                    "Chaque jour, ces individus pratiquent les conversations envoûtantes avec les rosiers enchantés imaginaires, explorant les mystères de l'amour et de la séduction.",
+                    "Chaque jour, c'est une Journée de Conversations Enchantées avec les Pétales de la Politique pour toi. Tu te connectes avec les subtilités de la manipulation et de l'intrigue, écoutant les murmures des alliances et des rivalités, guidé par une finesse politique inégalée.",
             },
             {
-                nom: "Les Débats Intérieurs de la Stratège Charismatique",
+                nom: "Journée des Débats Intérieurs de la Stratège Charmante",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'une stratège charismatique, jonglant entre la diplomatie et l'ambition avec grâce.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'une stratège charmante. Tu jongles entre les choix délicats de la diplomatie et de la séduction, cherchant à atteindre tes objectifs avec grâce et intelligence.",
             },
             {
-                nom: "La Parade Élégante des Robes à Étoffes Exquises",
+                nom: "Journée de la Parade Majestueuse des Émissaires de la Beauté",
                 description:
-                    "Ces individus participent à des parades élégantes des robes à étoffes exquises, symbolisant la sophistication et la grâce dans leur quête quotidienne de pouvoir et d'influence.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Émissaires de la Beauté pour toi. Tu célèbres la grandeur de la séduction, symbolisant ta quête quotidienne pour répandre la beauté et le charme dans un monde souvent dépourvu de grâce.",
             },
             {
-                nom: "Les Randonnées Romantiques dans les Jardins de Hautjardin",
+                nom: "Journée des Randonnées Tactiques à Travers les Jardins de l'Influence",
                 description:
-                    "Chaque journée apporte des randonnées romantiques dans les jardins de Hautjardin, explorant les recoins les plus charmants de la nature et de la passion.",
+                    "Chaque journée apporte des randonnées tactiques à travers les jardins de l'influence, explorant les sentiers délicats de la manipulation. Ton esprit stratégique guide chacun de tes pas sur le chemin de l'intrigue politique.",
             },
             {
-                nom: "La Lutte Contre les Regardes Envieux",
+                nom: "Journée de la Lutte Contre les Regards Envieux",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regardes envieux, symbolisant les défis de briller au milieu de la jalousie et des rivalités.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Envieux. Tu fais face aux défis des regards jaloux, montrant avec élégance que ta confiance en toi et ta beauté intérieure éclipsent toute tentative de te diminuer.",
             },
             {
-                nom: "La Quête du Thé Floral pour Égayer l'Âme",
+                nom: "Journée de la Quête de la Sagesse Élégante de l'Influence",
                 description:
-                    "Chaque jour, ces individus partent à la quête du thé floral, adoptant la douceur comme une arme pour apaiser les esprits et gagner des cœurs.",
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Élégante de l'Influence pour toi. Tu t'imprègnes de la sagesse élégante de l'influence, cherchant à comprendre les secrets du pouvoir et de la manipulation avec une finesse qui transcende la superficialité.",
             },
             {
-                nom: "Les Conseils pour Éviter les Intrigues Amoureuses Dangereuses",
+                nom: "Journée des Conseils pour Naviguer dans les Eaux Troubles du Pouvoir",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les intrigues amoureuses dangereuses, tirant des leçons de leur propre expérience dans le jeu de l'amour courtois.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Eaux Troubles du Pouvoir. Tu dispenses des conseils sur la manière de naviguer avec grâce à travers les intrigues politiques, guidant ceux qui cherchent à maîtriser l'art délicat de la manipulation.",
             },
             {
-                nom: "La Parade des Paons Majestueux dans les Salles du Trône",
+                nom: "Journée de la Parade des Gardiennes de la Grâce Subtile",
                 description:
-                    "Ces individus participent à des parades des paons majestueux dans les salles du trône, symbolisant la fierté et la beauté éblouissante au cœur du pouvoir.",
+                    "Les natifs de ce signe participent à des parades des gardiennes de la grâce subtile, symbolisant la beauté intérieure qui transcende la superficialité. Ta présence majestueuse et ton charme délicat font de chaque apparition une célébration de la véritable élégance.",
             },
             {
-                nom: "Les Danses Envoûtantes avec les Seigneurs de la Cour",
+                nom: "Journée des Danses Envoûtantes avec les Roses de la Cour",
                 description:
-                    "Chaque journée offre des danses envoûtantes avec les seigneurs de la cour, maîtrisant l'art subtil de la séduction et de la diplomatie avec charme.",
+                    "Chaque journée offre des danses envoûtantes avec les roses de la cour, maîtrisant l'art de la séduction. Ta grâce et ton charme captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
             {
-                nom: "Les Épopées Poétiques de la Reine en Devenir",
+                nom: "Journée des Épopées Poétiques de la Diplomate Élégante",
                 description:
-                    "Ces individus vivent des épopées poétiques de la reine en devenir, créant des vers épiques pour célébrer la quête du trône et de la grandeur royale.",
+                    "Les natifs de ce signe vivent des épopées poétiques de la diplomate élégante, créant des chants épiques pour célébrer la quête éternelle de l'influence. Chacun de tes actes devient une strophe dans le poème de ta présence raffinée dans les hautes sphères de la société.",
             },
             {
-                nom: "La Quête Infinie du Sens de l'Amour Véritable",
+                nom: "Journée de la Quête Infinie du Sens de l'Élégance Intérieure",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de l'amour véritable, cherchant à découvrir la passion authentique au-delà des apparences.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de l'élégance intérieure. Tu cherches à comprendre et à cultiver la beauté qui émane de ton âme, utilisant ta détermination pour révéler la grâce qui réside en toi.",
             },
             {
-                nom: "Les Combats Épiques avec les Éventails Élégants",
+                nom: "Journée des Combats Épiques avec le Sourire Irrésistible",
                 description:
-                    "Chaque journée apporte des combats épiques avec les éventails élégants, symbolisant les défis de manier des accessoires gracieux avec aisance et charme.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec le Sourire Irrésistible. Tu manies un sourire forgé dans la forge de la séduction, utilisant ta détermination pour conquérir les cœurs et établir des alliances avec une grâce inégalée.",
             },
             {
-                nom: "La Méditation Profonde sur les Secrets de la Cour",
+                nom: "Journée de la Méditation Profonde sur les Pétales de la Sagesse",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les secrets de la cour, explorant les nuances subtiles de l'intrigue et de la politique.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les pétales de la sagesse, explorant les subtilités de l'influence. Ta contemplation te connecte aux secrets du pouvoir, révélant des vérités qui échappent à une compréhension superficielle.",
             },
             {
-                nom: "La Quête du Sens de la Beauté Intérieure",
+                nom: "Journée de la Quête du Sens de la Subtilité Charmante",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de la beauté intérieure, où la véritable élégance réside dans la bonté et la noblesse du cœur.",
+                    "Chaque journée offre la quête perpétuelle du sens de la subtilité charmante, où chaque geste est une déclaration de grâce. Ta détermination à incarner la subtilité inspire ceux qui cherchent également à maîtriser l'art délicat de la séduction.",
             },
             {
-                nom: "Les Conseils Sages des Dame de Compagnie Bienveillantes",
+                nom: "Journée des Conseils Sages des Maîtres de l'Art de la Cour",
                 description:
-                    "Ces individus dispensent des conseils sages des dames de compagnie bienveillantes, puisant dans la sagesse des confidentes fidèles pour guider leurs actions au quotidien.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Maîtres de l'Art de la Cour. Tu dispensas des conseils inspirés des maîtres de la cour qui comprennent la valeur de l'élégance subtile, utilisant ta sagesse pour guider ceux qui aspirent à briller dans les cercles sociaux.",
             },
             {
-                nom: "La Danse des Roses avec les Nuances de Rose",
+                nom: "Journée de la Parade des Protectrices de la Beauté Intérieure",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec les roses à travers les nuances de rose, symbolisant la délicatesse et la passion dans leur parcours royal.",
+                    "Les natifs de ce signe participent à des parades des protectrices de la beauté intérieure, symbolisant la conviction que la véritable élégance vient de l'âme. Ta présence raffinée et ton engagement envers la beauté intérieure font de chaque apparition une célébration de la grâce véritable.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Courtisans Galants",
+                nom: "Journée des Danses Charmantes avec les Cavaliers Courtois",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les courtisans galants, ajoutant une touche de romance à leurs alliances politiques.",
+                    "Chaque journée offre des danses charmantes avec les cavaliers courtois, maîtrisant l'art de la séduction mutuelle. Ta grâce et ton charme captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
             {
-                nom: "Les Éclats de Rire Élégants dans les Salons de Hautgarden",
+                nom: "Journée des Épopées Poétiques de la Diplomate Élégante",
                 description:
-                    "Inspirés par les éclats de rire élégants dans les salons de Hautgarden, ces natifs trouvent l'humour au cœur des soirées mondaines et des jeux sociaux.",
+                    "Les natifs de ce signe vivent des épopées poétiques de la diplomate élégante, créant des chants épiques pour célébrer la quête éternelle de l'influence. Chacun de tes actes devient une strophe dans le poème de ta présence raffinée dans les hautes sphères de la société.",
+            },
+            {
+                nom: "Journée de la Quête Infinie du Sens de l'Élégance Intérieure",
+                description:
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de l'élégance intérieure. Tu cherches à comprendre et à cultiver la beauté qui émane de ton âme, utilisant ta détermination pour révéler la grâce qui réside en toi.",
+            },
+            {
+                nom: "Journée des Combats Épiques avec le Sourire Irrésistible",
+                description:
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec le Sourire Irrésistible. Tu manies un sourire forgé dans la forge de la séduction, utilisant ta détermination pour conquérir les cœurs et établir des alliances avec une grâce inégalée.",
+            },
+            {
+                nom: "Journée de la Méditation Profonde sur les Pétales de la Sagesse",
+                description:
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les pétales de la sagesse, explorant les subtilités de l'influence. Ta contemplation te connecte aux secrets du pouvoir, révélant des vérités qui échappent à une compréhension superficielle.",
+            },
+            {
+                nom: "Journée de la Quête du Sens de la Subtilité Charmante",
+                description:
+                    "Chaque journée offre la quête perpétuelle du sens de la subtilité charmante, où chaque geste est une déclaration de grâce. Ta détermination à incarner la subtilité inspire ceux qui cherchent également à maîtriser l'art délicat de la séduction.",
+            },
+            {
+                nom: "Journée des Conseils Sages des Maîtres de l'Art de la Cour",
+                description:
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Maîtres de l'Art de la Cour. Tu dispensas des conseils inspirés des maîtres de la cour qui comprennent la valeur de l'élégance subtile, utilisant ta sagesse pour guider ceux qui aspirent à briller dans les cercles sociaux.",
+            },
+            {
+                nom: "Journée de la Parade des Protectrices de la Beauté Intérieure",
+                description:
+                    "Les natifs de ce signe participent à des parades des protectrices de la beauté intérieure, symbolisant la conviction que la véritable élégance vient de l'âme. Ta présence raffinée et ton engagement envers la beauté intérieure font de chaque apparition une célébration de la grâce véritable.",
+            },
+            {
+                nom: "Journée des Danses Charmantes avec les Cavaliers Courtois",
+                description:
+                    "Chaque journée offre des danses charmantes avec les cavaliers courtois, maîtrisant l'art de la séduction mutuelle. Ta grâce et ton charme captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
         ],
     },
@@ -1132,99 +1057,94 @@ const characters = [
         astrology: ["Pragmatique", "Perspicace", "Intelligent(e)"],
         themes: [
             {
-                nom: "La Quête Éternelle de la Sagesse Acérée",
+                nom: "Journée de la Quête Éternelle de la Sagesse Cynique",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle de la sagesse acérée, symbolisant leur recherche constante d'intelligence et de perspicacité dans un monde empreint de politique.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle de la Sagesse Cynique. Tu cultives constamment une intelligence piquante et une perspicacité acérée, utilisant ton esprit vif pour percer les illusions et découvrir la vérité derrière les apparences.",
             },
             {
-                nom: "Les Conversations Cinglantes avec les Roses Intelligents",
+                nom: "Journée de Conversations Perspicaces avec les Roses de la Ruse",
                 description:
-                    "Chaque jour, ces individus pratiquent les conversations cinglantes avec les roses intelligents imaginaires, explorant les subtilités de l'intrigue et de la manipulation.",
+                    "Chaque jour, c'est une Journée de Conversations Perspicaces avec les Roses de la Ruse pour toi. Tu te connectes avec les subtilités de la manipulation et de l'intrigue, écoutant les murmures des alliances et des rivalités, guidé par une finesse politique inégalée.",
             },
             {
-                nom: "Les Débats Intérieurs de la Stratège Machiavélique",
+                nom: "Journée des Débats Intérieurs de la Stratège Cynique",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'une stratège machiavélique, jonglant entre la ruse et la loyauté avec audace.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'une stratège cynique. Tu jongles entre les choix délicats de la diplomatie et de la ruse, cherchant à atteindre tes objectifs avec un esprit incisif et une perspicacité hors pair.",
             },
             {
-                nom: "La Parade Aiguisée des Réparties Satiriques",
+                nom: "Journée de la Parade Majestueuse des Émissaires de la Ruse",
                 description:
-                    "Ces individus participent à des parades aiguisées des réparties satiriques, symbolisant l'esprit vif et la finesse dans leur quête quotidienne de manipulation politique.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Émissaires de la Ruse pour toi. Tu célèbres la grandeur de la ruse, symbolisant ta quête quotidienne pour naviguer habilement à travers les intrications politiques d'un monde souvent dépourvu d'honnêteté.",
             },
             {
-                nom: "Les Randonnées Éclairées dans les Jardins de Hautgarden",
+                nom: "Journée des Randonnées Tactiques à Travers les Jardins de la Manipulation",
                 description:
-                    "Chaque journée apporte des randonnées éclairées dans les jardins de Hautgarden, explorant les dédales de la cour avec finesse et discernement.",
+                    "Chaque journée apporte des randonnées tactiques à travers les jardins de la manipulation, explorant les sentiers délicats de la ruse. Ton esprit stratégique guide chacun de tes pas sur le chemin de l'intrigue politique.",
             },
             {
-                nom: "La Lutte Contre les Regards Niais",
+                nom: "Journée de la Lutte Contre les Regards Soupçonneux",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regards niais, symbolisant les défis de traiter avec ceux qui sous-estiment leur intelligence affûtée.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Soupçonneux. Tu fais face aux défis des regards méfiants, montrant avec finesse que ton intelligence et ta perspicacité éclipsent toute tentative de te tromper.",
             },
             {
-                nom: "La Quête du Thé Puissant pour Réveiller l'Esprit",
+                nom: "Journée de la Quête de la Sagesse Rusée de la Manipulation",
                 description:
-                    "Chaque jour, ces individus partent à la quête du thé puissant, adoptant la force mentale comme une arme pour affronter les jeux de pouvoir.",
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Rusée de la Manipulation pour toi. Tu t'imprègnes de la sagesse rusée de la manipulation, cherchant à comprendre les secrets du pouvoir et de la tromperie avec une finesse qui transcende la superficialité.",
             },
             {
-                nom: "Les Conseils pour Éviter les Alliances Faibles",
+                nom: "Journée des Conseils pour Naviguer dans les Eaux Troubles du Pouvoir",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les alliances faibles, tirant des leçons de leur propre expérience pour forger des liens stratégiques.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Eaux Troubles du Pouvoir. Tu dispenses des conseils sur la manière de naviguer avec astuce à travers les intrigues politiques, guidant ceux qui cherchent à maîtriser l'art délicat de la manipulation.",
             },
             {
-                nom: "La Parade des Serpents Rusés dans les Salles de Conseil",
+                nom: "Journée de la Parade des Gardiennes de la Ruse Subtile",
                 description:
-                    "Ces individus participent à des parades des serpents rusés dans les salles de conseil, symbolisant la ruse et la finesse dans l'art de la manipulation politique.",
+                    "Les natifs de ce signe participent à des parades des gardiennes de la ruse subtile, symbolisant l'habileté à manœuvrer avec intelligence. Ta présence majestueuse et ton esprit perspicace font de chaque apparition une célébration de la véritable intelligence politique.",
             },
             {
-                nom: "Les Danses Astucieuses avec les Seigneurs de la Cour",
+                nom: "Journée des Danses Rusées avec les Cavaliers Diplomates",
                 description:
-                    "Chaque journée offre des danses astucieuses avec les seigneurs de la cour, maîtrisant l'art subtil de la séduction et de la persuasion avec élégance.",
+                    "Chaque journée offre des danses rusées avec les cavaliers diplomates, maîtrisant l'art de la manipulation mutuelle. Ton intelligence et ta perspicacité captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
             {
-                nom: "Les Épopées Poétiques de la Maîtresse des Intrigues",
+                nom: "Journée des Épopées Poétiques de la Maîtresse de la Diplomatie",
                 description:
-                    "Ces individus vivent des épopées poétiques de la maîtresse des intrigues, créant des vers épiques pour célébrer la maîtrise des jeux de pouvoir.",
+                    "Les natifs de ce signe vivent des épopées poétiques de la maîtresse de la diplomatie, créant des chants épiques pour célébrer la quête éternelle de l'influence. Chacun de tes actes devient une strophe dans le poème de ta présence raffinée dans les hautes sphères de la société.",
             },
             {
-                nom: "La Quête Infinie du Sens de la Manipulation Subtile",
+                nom: "Journée de la Quête Infinie du Sens de l'Intelligence Cynique",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de la manipulation subtile, cherchant à orchestrer les événements avec astuce et raffinement.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de l'intelligence cynique. Tu cherches à comprendre et à cultiver la finesse qui émane de ton esprit, utilisant ta détermination pour révéler la vérité qui se cache derrière les masques.",
             },
             {
-                nom: "Les Combats Épiques avec les Éventails de Vermeil",
+                nom: "Journée des Combats Épiques avec la Stratégie de la Tromperie",
                 description:
-                    "Chaque journée apporte des combats épiques avec les éventails de vermeil, symbolisant les défis de déployer des atouts élégants avec tact et assurance.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec la Stratégie de la Tromperie. Tu manies une stratégie forgée dans la forge de la tromperie, utilisant ta détermination pour manipuler les événements et atteindre tes objectifs avec une finesse inégalée.",
             },
             {
-                nom: "La Méditation Profonde sur les Secrets des Cours Royales",
+                nom: "Journée de la Méditation Profonde sur les Ruses de la Sagesse",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les secrets des cours royales, explorant les subtilités des alliances et des complots.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les ruses de la sagesse, explorant les subtilités de la manipulation. Ta contemplation te connecte aux arcanes du pouvoir, révélant des vérités qui échappent à une compréhension superficielle.",
             },
             {
-                nom: "La Quête du Sens de la Vérité Dissimulée",
+                nom: "Journée de la Quête du Sens de la Perspicacité Rusée",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de la vérité dissimulée, où la perspicacité est nécessaire pour percer les voiles des mensonges politiques.",
+                    "Chaque journée offre la quête perpétuelle du sens de la perspicacité rusée, où chaque acte est une déclaration d'intelligence. Ta détermination à incarner la ruse inspire ceux qui cherchent également à maîtriser l'art délicat de la manipulation.",
             },
             {
-                nom: "Les Conseils Sages des Conseillers Éclairés",
+                nom: "Journée des Conseils Sages des Maîtres de la Diplomatie Rusée",
                 description:
-                    "Ces individus dispensent des conseils sages des conseillers éclairés, puisant dans la sagesse des confidents fidèles pour guider leurs actions au quotidien.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Maîtres de la Diplomatie Rusée. Tu dispensas des conseils inspirés des maîtres de la diplomatie qui comprennent la valeur de l'intelligence cynique, utilisant ta sagesse pour guider ceux qui aspirent à exceller dans les jeux du pouvoir.",
             },
             {
-                nom: "La Danse des Serpents avec les Nuances d'Émeraude",
+                nom: "Journée de la Parade des Protectrices de la Subtilité Intellectuelle",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec les serpents à travers les nuances d'émeraude, symbolisant la ruse, la grâce et la puissance.",
+                    "Les natifs de ce signe participent à des parades des protectrices de la subtilité intellectuelle, symbolisant la conviction que la véritable sagesse vient de l'intelligence. Ta présence raffinée et ton engagement envers l'intelligence font de chaque apparition une célébration de la finesse véritable.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Maitres des Échecs",
+                nom: "Journée des Danses Rusées avec les Cavaliers Diplomates",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les maîtres des échecs, cherchant à anticiper et à contrer les mouvements adverses.",
-            },
-            {
-                nom: "Les Éclats de Rire Cinglants dans les Salles de Conseil",
-                description:
-                    "Inspirés par les éclats de rire cinglants dans les salles de conseil, ces natifs trouvent l'humour au cœur des manœuvres politiques les plus complexes.",
+                    "Chaque journée offre des danses rusées avec les cavaliers diplomates, maîtrisant l'art de la manipulation mutuelle. Ton intelligence et ta perspicacité captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
         ],
     },
@@ -1233,99 +1153,94 @@ const characters = [
         astrology: ["Manipulateur(trice)", "Ambitieux(se)", "Intelligent(e)"],
         themes: [
             {
-                nom: "La Quête Éternelle du Pouvoir Insaisissable",
+                nom: "Journée de la Quête Éternelle de l'Ascension Machiavélique",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle du pouvoir insaisissable, symbolisant leur recherche constante d'influence et de contrôle dans un monde de jeux politiques.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle de l'Ascension Machiavélique. Tu cultives constamment une ambition sans bornes et un esprit calculateur, utilisant chaque opportunité pour monter en puissance dans les coulisses de l'intrigue politique.",
             },
             {
-                nom: "Les Conversations Énigmatiques avec les Oiseaux de Corbeau",
+                nom: "Journée de Conversations Intrigantes avec les Émissaires de la Fourberie",
                 description:
-                    "Chaque jour, ces individus pratiquent les conversations énigmatiques avec les oiseaux de corbeau imaginaires, explorant les mystères des alliances et des secrets bien gardés.",
+                    "Chaque jour, c'est une Journée de Conversations Intrigantes avec les Émissaires de la Fourberie pour toi. Tu te connectes avec les subtilités de la manipulation et de l'intrigue, écoutant les murmures des alliances et des rivalités, guidé par une finesse politique inégalée.",
             },
             {
-                nom: "Les Débats Intérieurs du Machiavélique Stratège",
+                nom: "Journée des Débats Intérieurs du Stratège Machiavélien",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un machiavélique stratège, jonglant entre la duplicité et la manipulation avec astuce.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un stratège machiavélien. Tu jongles entre les choix délicats de la diplomatie et de la ruse, cherchant à atteindre tes objectifs avec un esprit rusé et une intelligence acérée.",
             },
             {
-                nom: "La Parade Furtive des Hommes de Main Discrets",
+                nom: "Journée de la Parade Majestueuse des Émissaires de l'Intrigue",
                 description:
-                    "Ces individus participent à des parades furtives des hommes de main discrets, symbolisant la ruse et la discrétion dans leur quête quotidienne de pouvoir et de profit.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Émissaires de l'Intrigue pour toi. Tu célèbres la grandeur de l'intrigue, symbolisant ta quête quotidienne pour manipuler habilement les fils du pouvoir dans un monde souvent dépourvu de loyauté.",
             },
             {
-                nom: "Les Randonnées Astucieuses dans les Ruelles de King's Landing",
+                nom: "Journée des Randonnées Tactiques à Travers les Jardins de la Manipulation",
                 description:
-                    "Chaque journée apporte des randonnées astucieuses dans les ruelles de King's Landing, explorant les bas-fonds de la cité avec opportunisme et ruse.",
+                    "Chaque journée apporte des randonnées tactiques à travers les jardins de la manipulation, explorant les sentiers délicats de la ruse. Ton esprit stratégique guide chacun de tes pas sur le chemin de l'intrigue politique.",
             },
             {
-                nom: "La Lutte Contre les Regards Soupçonneux",
+                nom: "Journée de la Lutte Contre les Regards Suspicieux",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regards soupçonneux, symbolisant les défis de se mouvoir dans les eaux troubles de la politique sans être découvert.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Suspicieux. Tu fais face aux défis des regards méfiants, montrant avec habileté que ton intelligence et ta ruse éclipsent toute tentative de te tromper.",
             },
             {
-                nom: "La Quête du Vin Raffiné pour Lubrifier les Alliances",
+                nom: "Journée de la Quête de la Sagesse Sournoise de la Manipulation",
                 description:
-                    "Chaque jour, ces individus partent à la quête du vin raffiné, adoptant l'art de la séduction et de la persuasion autour d'une coupe bien choisie.",
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Sournoise de la Manipulation pour toi. Tu t'imprègnes de la sagesse sournoise de la manipulation, cherchant à comprendre les secrets du pouvoir et de la tromperie avec une finesse qui transcende la superficialité.",
             },
             {
-                nom: "Les Conseils pour Éviter les Liens Émotionnels Inutiles",
+                nom: "Journée des Conseils pour Naviguer dans les Eaux Troubles du Pouvoir",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les liens émotionnels inutiles, tirant des leçons de leur propre parcours de détachement et de calcul.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Eaux Troubles du Pouvoir. Tu dispenses des conseils sur la manière de naviguer avec ruse à travers les intrigues politiques, guidant ceux qui cherchent à maîtriser l'art délicat de la manipulation.",
             },
             {
-                nom: "La Parade des Serpents Malicieux dans les Cours Royales",
+                nom: "Journée de la Parade des Maîtres de l'Art de la Ruse",
                 description:
-                    "Ces individus participent à des parades des serpents malicieux dans les cours royales, symbolisant la ruse et la tromperie au cœur du jeu politique.",
+                    "Les natifs de ce signe participent à des parades des maîtres de l'art de la ruse, symbolisant l'habileté à manœuvrer avec intelligence. Ta présence majestueuse et ton esprit calculateur font de chaque apparition une célébration de la véritable intelligence politique.",
             },
             {
-                nom: "Les Danses Diplomatiques avec les Puissants de Westeros",
+                nom: "Journée des Danses Intrigantes avec les Cavaliers Machiavéliens",
                 description:
-                    "Chaque journée offre des danses diplomatiques avec les puissants de Westeros, maîtrisant l'art subtil de la manipulation et de l'alliance stratégique.",
+                    "Chaque journée offre des danses intrigantes avec les cavaliers machiavéliens, maîtrisant l'art de la manipulation mutuelle. Ton ambition et ton esprit rusé captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
             {
-                nom: "Les Épopées Poétiques du Maître des Marionnettes",
+                nom: "Journée des Épopées Poétiques du Maître de la Manipulation",
                 description:
-                    "Ces individus vivent des épopées poétiques du maître des marionnettes, créant des intrigues épiques pour célébrer la subversion et la montée au pouvoir.",
+                    "Les natifs de ce signe vivent des épopées poétiques du maître de la manipulation, créant des chants épiques pour célébrer la quête éternelle de l'influence. Chacun de tes actes devient une strophe dans le poème de ta présence raffinée dans les hautes sphères de la société.",
             },
             {
-                nom: "La Quête Infinie du Sens de l'Opportunité",
+                nom: "Journée de la Quête Infinie du Sens de l'Ambition Rusée",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de l'opportunité, cherchant à saisir chaque moment propice pour avancer leurs plans.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de l'ambition rusée. Tu cherches à comprendre et à cultiver l'ambition qui émane de ton être, utilisant ta détermination pour atteindre les sommets du pouvoir avec une finesse inégalée.",
             },
             {
-                nom: "Les Combats Épiques avec les Lames d'Argent et de Tromperie",
+                nom: "Journée des Combats Épiques avec la Stratégie de la Tromperie",
                 description:
-                    "Chaque journée apporte des combats épiques avec les lames d'argent et de tromperie, symbolisant les défis de manier des armes aussi aiguisées que la manipulation politique.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec la Stratégie de la Tromperie. Tu manies une stratégie forgée dans la forge de la tromperie, utilisant ta détermination pour manipuler les événements et atteindre tes objectifs avec une finesse inégalée.",
             },
             {
-                nom: "La Méditation Profonde sur les Méandres des Conspirations",
+                nom: "Journée de la Méditation Profonde sur les Ruses de la Sagesse",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les méandres des conspirations, explorant les subtilités des complots et des alliances secrètes.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les ruses de la sagesse, explorant les subtilités de la manipulation. Ta contemplation te connecte aux arcanes du pouvoir, révélant des vérités qui échappent à une compréhension superficielle.",
             },
             {
-                nom: "La Quête du Sens de la Tactique Perfide",
+                nom: "Journée de la Quête du Sens de la Perspicacité Rusée",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de la tactique perfide, où la ruse et la finesse sont des armes aussi importantes que la force brute.",
+                    "Chaque journée offre la quête perpétuelle du sens de la perspicacité rusée, où chaque acte est une déclaration d'intelligence. Ta détermination à incarner la ruse inspire ceux qui cherchent également à maîtriser l'art délicat de la manipulation.",
             },
             {
-                nom: "Les Conseils Sages des Conseillers Sombres",
+                nom: "Journée des Conseils Sages des Maîtres de la Diplomatie Rusée",
                 description:
-                    "Ces individus dispensent des conseils sages des conseillers sombres, puisant dans la sagesse des manipulateurs habiles pour guider leurs actions au quotidien.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Maîtres de la Diplomatie Rusée. Tu dispensas des conseils inspirés des maîtres de la diplomatie qui comprennent la valeur de l'intelligence cynique, utilisant ta sagesse pour guider ceux qui aspirent à exceller dans les jeux du pouvoir.",
             },
             {
-                nom: "La Danse des Ombres avec les Nuances d'Obsidienne",
+                nom: "Journée de la Parade des Protecteurs de l'Ambition Machiavélique",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec les ombres à travers les nuances d'obsidienne, symbolisant la subversion et l'intrigue dans leur parcours politique.",
+                    "Les natifs de ce signe participent à des parades des protecteurs de l'ambition machiavélique, symbolisant la conviction que la véritable réussite vient de l'ambition. Ta présence raffinée et ton engagement envers l'ambition font de chaque apparition une célébration de la finesse véritable.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Tisserands de Mensonges",
+                nom: "Journée des Danses Intrigantes avec les Cavaliers Machiavéliens",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les tisserands de mensonges, cherchant à manipuler les fils du destin.",
-            },
-            {
-                nom: "Les Éclats de Rire Ironiques dans les Salles du Pouvoir",
-                description:
-                    "Inspirés par les éclats de rire ironiques dans les salles du pouvoir, ces natifs trouvent l'humour au cœur des machinations politiques les plus retorses.",
+                    "Chaque journée offre des danses intrigantes avec les cavaliers machiavéliens, maîtrisant l'art de la manipulation mutuelle. Ton ambition et ton esprit rusé captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
         ],
     },
@@ -1334,99 +1249,94 @@ const characters = [
         astrology: ["Protecteur(trice)", "Fidèle", "Tête brulée"],
         themes: [
             {
-                nom: "La Quête Éternelle de la Solitude Impitoyable",
+                nom: "Journée de la Quête Éternelle de la Force Implacable",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle de la solitude impitoyable, symbolisant leur recherche constante de paix dans un monde chaotique et brutal.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle de la Force Implacable. Tu cultives constamment une puissance brutale et une détermination sans faille, utilisant ta force pour affronter les défis de la vie avec une résilience inébranlable.",
             },
             {
-                nom: "Les Conversations Sarcastiques avec les Chiens Errants",
+                nom: "Journée de Conversations Franches avec les Braves Indomptables",
                 description:
-                    "Chaque jour, ces individus pratiquent les conversations sarcastiques avec les chiens errants imaginaires, explorant les méandres de la vie avec un humour grinçant.",
+                    "Chaque jour, c'est une Journée de Conversations Franches avec les Braves Indomptables pour toi. Tu te connectes avec la sincérité de ceux qui affrontent la vie sans détour, partageant tes propres vérités avec une honnêteté crue qui ne connaît pas de compromis.",
             },
             {
-                nom: "Les Débats Intérieurs du Guerrier Désillusionné",
+                nom: "Journée des Débats Intérieurs du Guerrier Endurci",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un guerrier désillusionné, naviguant entre la violence et la quête de sens avec brutalité.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un guerrier endurci. Tu jongles entre les choix délicats de la loyauté et de l'indépendance, cherchant à forger ta propre destinée avec une détermination farouche.",
             },
             {
-                nom: "La Parade Impassible des Hommes de Main Taciturnes",
+                nom: "Journée de la Parade Majestueuse des Protecteurs de la Bravoure",
                 description:
-                    "Ces individus participent à des parades impassibles des hommes de main taciturnes, symbolisant la force tranquille et la fidélité dans leur quête quotidienne de survie.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Protecteurs de la Bravoure pour toi. Tu célèbres la grandeur de la bravoure, symbolisant ta quête quotidienne pour faire face aux défis avec une force intérieure qui inspire le respect.",
             },
             {
-                nom: "Les Randonnées Solitaires dans les Terres Désolées",
+                nom: "Journée des Randonnées Tactiques à Travers les Vallées de la Résilience",
                 description:
-                    "Chaque journée apporte des randonnées solitaires dans les terres désolées, explorant les étendues sauvages avec une détermination inflexible.",
+                    "Chaque journée apporte des randonnées tactiques à travers les vallées de la résilience, explorant les sentiers escarpés de la vie. Ta force inébranlable guide chacun de tes pas sur le chemin de l'endurance face aux adversités.",
             },
             {
-                nom: "La Lutte Contre les Regards Méprisants",
+                nom: "Journée de la Lutte Contre les Regards Jugateurs",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regards méprisants, symbolisant les défis de trouver la valeur personnelle dans un monde indifférent.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Jugateurs. Tu fais face aux défis des regards scrutateurs, montrant avec fierté que ta force et ton intégrité éclipsent toute tentative de te déstabiliser.",
             },
             {
-                nom: "La Quête du Vin Fort pour Oublier les Cauchemars",
+                nom: "Journée de la Quête de la Sagesse Forgée dans le Feu du Combat",
                 description:
-                    "Chaque jour, ces individus partent à la quête du vin fort, adoptant la rudesse comme une arme pour affronter les démons du passé.",
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Forgée dans le Feu du Combat pour toi. Tu t'imprègnes de la sagesse forgée dans le feu du combat, cherchant à comprendre les leçons de la vie à travers les épreuves et les triomphes.",
             },
             {
-                nom: "Les Conseils pour Éviter les Attachements Inutiles",
+                nom: "Journée des Conseils pour Naviguer dans les Tempêtes de l'Existence",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les attachements inutiles, tirant des leçons de leur propre expérience de détachement émotionnel.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Tempêtes de l'Existence. Tu dispenses des conseils sur la manière de naviguer avec courage à travers les défis, guidant ceux qui cherchent à surmonter les tempêtes de la vie avec une détermination inébranlable.",
             },
             {
-                nom: "La Parade des Loups Solitaires dans les Terres Sauvages",
+                nom: "Journée de la Parade des Gardiens de la Force Intérieure",
                 description:
-                    "Ces individus participent à des parades des loups solitaires dans les terres sauvages, symbolisant la détermination et la résilience dans l'isolement.",
+                    "Les natifs de ce signe participent à des parades des gardiens de la force intérieure, symbolisant la conviction que la véritable puissance vient de l'âme. Ta présence imposante et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
             },
             {
-                nom: "Les Danses Impétueuses avec la Rage Intérieure",
+                nom: "Journée des Danses Franches avec les Braves Intrépides",
                 description:
-                    "Chaque journée offre des danses impétueuses avec la rage intérieure, maîtrisant l'art de canaliser la colère pour la transformer en force.",
+                    "Chaque journée offre des danses franches avec les braves intrépides, maîtrisant l'art de la camaraderie authentique. Ta sincérité et ta force captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
             {
-                nom: "Les Épopées Poétiques du Chevalier Solitaire",
+                nom: "Journée des Épopées Poétiques du Guerrier Indomptable",
                 description:
-                    "Ces individus vivent des épopées poétiques du chevalier solitaire, créant des vers épiques pour célébrer la lutte personnelle et la quête de rédemption.",
+                    "Les natifs de ce signe vivent des épopées poétiques du guerrier indomptable, créant des chants épiques pour célébrer la quête éternelle de la force intérieure. Chacun de tes actes devient une strophe dans le poème de ta présence puissante dans les hautes sphères de la vie.",
             },
             {
-                nom: "La Quête Infinie du Sens de la Loyauté",
+                nom: "Journée de la Quête Infinie du Sens de la Loyauté Honnête",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de la loyauté, cherchant à trouver des liens forts dans un monde souvent dénué de fidélité.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de la loyauté honnête. Tu cherches à comprendre et à cultiver la loyauté qui émane de ton être, utilisant ta détermination pour rester fidèle à tes principes avec une force inégalée.",
             },
             {
-                nom: "Les Combats Épiques avec les Lances de la Désillusion",
+                nom: "Journée des Combats Épiques avec la Bravoure sans Retenue",
                 description:
-                    "Chaque journée apporte des combats épiques avec les lances de la désillusion, symbolisant les défis de se battre avec la réalité brutale de la vie.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec la Bravoure sans Retenue. Tu manies une bravoure forgée dans la forge des épreuves, utilisant ta détermination pour affronter les défis avec une intrépidité qui ne connaît pas de limites.",
             },
             {
-                nom: "La Méditation Profonde sur les Traces de la Souffrance",
+                nom: "Journée de la Méditation Profonde sur les Vallées de la Résilience",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les traces de la souffrance, explorant les cicatrices de leur passé avec un regard résolu.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les vallées de la résilience, explorant les subtilités de la force intérieure. Ta contemplation te connecte aux leçons du passé, révélant des vérités qui échappent à une compréhension superficielle.",
             },
             {
-                nom: "La Quête du Sens de la Liberté Indomptée",
+                nom: "Journée de la Quête du Sens de la Persévérance Inébranlable",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de la liberté indomptée, où la volonté de vivre en dehors des contraintes guide chaque pas.",
+                    "Chaque journée offre la quête perpétuelle du sens de la persévérance inébranlable, où chaque pas est une déclaration de détermination. Ta détermination à incarner la force inspire ceux qui cherchent également à maîtriser l'art délicat de la résilience.",
             },
             {
-                nom: "Les Conseils Sages des Vieillards Sages Errants",
+                nom: "Journée des Conseils Sages des Maîtres de la Force Intérieure",
                 description:
-                    "Ces individus dispensent des conseils sages des vieillards sages errants, puisant dans la sagesse de ceux qui ont survécu aux épreuves les plus rudes.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Maîtres de la Force Intérieure. Tu dispensas des conseils inspirés des maîtres de la résilience qui comprennent la valeur de la force intérieure, utilisant ta sagesse pour guider ceux qui aspirent à surmonter les défis avec une détermination inébranlable.",
             },
             {
-                nom: "La Danse des Ombres avec les Nuances d'Obscurité",
+                nom: "Journée de la Parade des Protecteurs de la Bravoure Authentique",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec les ombres à travers les nuances d'obscurité, symbolisant la force obscure et la détermination sans compromis.",
+                    "Les natifs de ce signe participent à des parades des protecteurs de la bravoure authentique, symbolisant la conviction que la véritable bravoure vient de l'authenticité. Ta présence imposante et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Bêtes Sauvages",
+                nom: "Journée des Danses Franches avec les Braves Intrépides",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les bêtes sauvages, cherchant à trouver un équilibre avec la nature impitoyable.",
-            },
-            {
-                nom: "Les Éclats de Rire Sombres dans les Tavernes Lointaines",
-                description:
-                    "Inspirés par les éclats de rire sombres dans les tavernes lointaines, ces natifs trouvent l'humour au cœur des coins les plus reculés du royaume.",
+                    "Chaque journée offre des danses franches avec les braves intrépides, maîtrisant l'art de la camaraderie authentique. Ta sincérité et ta force captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
         ],
     },
@@ -1435,99 +1345,94 @@ const characters = [
         astrology: ["Aventureux(se)", "Fier(e)", "Sauvage"],
         themes: [
             {
-                nom: "La Quête Éternelle de la Puissance Sauvage",
+                nom: "Journée de la Quête Éternelle de la Puissance Sauvage",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle de la puissance sauvage, symbolisant leur recherche constante de force et de domination dans un monde brutal.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle de la Puissance Sauvage. Tu cultives constamment une force brute et une détermination farouche, utilisant ta puissance pour conquérir les défis de la vie avec une férocité inégalée.",
             },
             {
-                nom: "Les Conversations Passionnées avec les Chevaux de Guerre",
+                nom: "Journée de Conversations Sincères avec les Esprits Fiers",
                 description:
-                    "Chaque jour, ces individus pratiquent les conversations passionnées avec les chevaux de guerre imaginaires, explorant les liens profonds avec la nature et la férocité.",
+                    "Chaque jour, c'est une Journée de Conversations Sincères avec les Esprits Fiers pour toi. Tu te connectes avec l'authenticité de ceux qui marchent fièrement, partageant tes propres vérités avec une honnêteté franche qui ne connaît pas de compromis.",
             },
             {
-                nom: "Les Débats Intérieurs du Chef de Guerre Intrépide",
+                nom: "Journée des Débats Intérieurs du Guerrier Indomptable",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un chef de guerre intrépide, jonglant entre la stratégie et l'honneur avec courage.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un guerrier indomptable. Tu jongles entre les choix délicats de la loyauté et de l'indépendance, cherchant à forger ta propre destinée avec une détermination farouche.",
             },
             {
-                nom: "La Parade Majestueuse des Guerriers Imposants",
+                nom: "Journée de la Parade Majestueuse des Protecteurs de la Fierté",
                 description:
-                    "Ces individus participent à des parades majestueuses des guerriers imposants, symbolisant la grandeur et la prestance dans leur quête quotidienne de conquête.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Protecteurs de la Fierté pour toi. Tu célèbres la grandeur de la fierté, symbolisant ta quête quotidienne pour faire face aux défis avec une force intérieure qui inspire le respect.",
             },
             {
-                nom: "Les Randonnées Aventureuses dans les Plaines Sans Fin",
+                nom: "Journée des Randonnées Tactiques à Travers les Terres Sauvages",
                 description:
-                    "Chaque journée apporte des randonnées aventureuses dans les plaines sans fin, explorant les vastes étendues avec une détermination sans limites.",
+                    "Chaque journée apporte des randonnées tactiques à travers les terres sauvages, explorant les sentiers accidentés de la vie. Ta force inébranlable guide chacun de tes pas sur le chemin de l'endurance face aux adversités.",
             },
             {
-                nom: "La Lutte Contre les Regards Défiants",
+                nom: "Journée de la Lutte Contre les Regards Jugateurs",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regards défiant, symbolisant les défis de maintenir la fierté et la détermination face à l'adversité.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Jugateurs. Tu fais face aux défis des regards scrutateurs, montrant avec fierté que ta force et ton intégrité éclipsent toute tentative de te déstabiliser.",
             },
             {
-                nom: "La Quête du Feu Sacré pour Brûler les Obstacles",
+                nom: "Journée de la Quête de la Sagesse Forgée dans le Feu du Combat",
                 description:
-                    "Chaque jour, ces individus partent à la quête du feu sacré, adoptant la flamme comme une arme pour brûler les obstacles sur leur chemin.",
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Forgée dans le Feu du Combat pour toi. Tu t'imprègnes de la sagesse forgée dans le feu du combat, cherchant à comprendre les leçons de la vie à travers les épreuves et les triomphes.",
             },
             {
-                nom: "Les Conseils pour Éviter les Liens Contraignants",
+                nom: "Journée des Conseils pour Naviguer dans les Tempêtes de l'Existence",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les liens contraignants, tirant des leçons de leur propre expérience pour rester libres comme le vent.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Tempêtes de l'Existence. Tu dispenses des conseils sur la manière de naviguer avec courage à travers les défis, guidant ceux qui cherchent à surmonter les tempêtes de la vie avec une détermination inébranlable.",
             },
             {
-                nom: "La Parade des Lions Féroces dans les Tribus Nomades",
+                nom: "Journée de la Parade des Gardiens de la Force Intérieure",
                 description:
-                    "Ces individus participent à des parades des lions féroces dans les tribus nomades, symbolisant la force et la loyauté au cœur de la vie nomade.",
+                    "Les natifs de ce signe participent à des parades des gardiens de la force intérieure, symbolisant la conviction que la véritable puissance vient de l'âme. Ta présence imposante et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
             },
             {
-                nom: "Les Danses Guerrières avec les Braves Indomptables",
+                nom: "Journée des Danses Franches avec les Braves Intrépides",
                 description:
-                    "Chaque journée offre des danses guerrières avec les braves indomptables, maîtrisant l'art de la lutte et de la camaraderie avec fougue.",
+                    "Chaque journée offre des danses franches avec les braves intrépides, maîtrisant l'art de la camaraderie authentique. Ta sincérité et ta force captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
             {
-                nom: "Les Épopées Poétiques du Seigneur des Steppes",
+                nom: "Journée des Épopées Poétiques du Guerrier Indomptable",
                 description:
-                    "Ces individus vivent des épopées poétiques du seigneur des steppes, créant des chants épiques pour célébrer la bravoure et la conquête.",
+                    "Les natifs de ce signe vivent des épopées poétiques du guerrier indomptable, créant des chants épiques pour célébrer la quête éternelle de la force intérieure. Chacun de tes actes devient une strophe dans le poème de ta présence puissante dans les hautes sphères de la vie.",
             },
             {
-                nom: "La Quête Infinie du Sens de la Liberté Sauvage",
+                nom: "Journée de la Quête Infinie du Sens de la Loyauté Honnête",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de la liberté sauvage, cherchant à goûter à la vie sans entraves et à l'exploration sans limites.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de la loyauté honnête. Tu cherches à comprendre et à cultiver la loyauté qui émane de ton être, utilisant ta détermination pour rester fidèle à tes principes avec une force inégalée.",
             },
             {
-                nom: "Les Combats Épiques avec les Armes des Ancêtres",
+                nom: "Journée des Combats Épiques avec la Bravoure sans Retenue",
                 description:
-                    "Chaque journée apporte des combats épiques avec les armes des ancêtres, symbolisant les défis de perpétuer la tradition guerrière avec honneur.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec la Bravoure sans Retenue. Tu manies une bravoure forgée dans la forge des épreuves, utilisant ta détermination pour affronter les défis avec une intrépidité qui ne connaît pas de limites.",
             },
             {
-                nom: "La Méditation Profonde sous les Étoiles Infinies",
+                nom: "Journée de la Méditation Profonde sur les Vallées de la Résilience",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sous les étoiles infinies, explorant la connexion spirituelle avec le cosmos et la nature.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les vallées de la résilience, explorant les subtilités de la force intérieure. Ta contemplation te connecte aux leçons du passé, révélant des vérités qui échappent à une compréhension superficielle.",
             },
             {
-                nom: "La Quête du Sens de la Fierté Indomptée",
+                nom: "Journée de la Quête du Sens de la Persévérance Inébranlable",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de la fierté indomptée, où l'honneur et la dignité sont des valeurs sacrées.",
+                    "Chaque journée offre la quête perpétuelle du sens de la persévérance inébranlable, où chaque pas est une déclaration de détermination. Ta détermination à incarner la force inspire ceux qui cherchent également à maîtriser l'art délicat de la résilience.",
             },
             {
-                nom: "Les Conseils Sages des Anciens Guerriers Respectés",
+                nom: "Journée des Conseils Sages des Maîtres de la Force Intérieure",
                 description:
-                    "Ces individus dispensent des conseils sages des anciens guerriers respectés, puisant dans la sagesse de ceux qui ont connu les batailles les plus féroces.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Maîtres de la Force Intérieure. Tu dispensas des conseils inspirés des maîtres de la résilience qui comprennent la valeur de la force intérieure, utilisant ta sagesse pour guider ceux qui aspirent à surmonter les défis avec une détermination inébranlable.",
             },
             {
-                nom: "La Danse des Flammes avec les Nuances d'Orange",
+                nom: "Journée de la Parade des Protecteurs de la Fierté Authentique",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec les flammes à travers les nuances d'orange, symbolisant la passion ardente et la détermination inébranlable.",
+                    "Les natifs de ce signe participent à des parades des protecteurs de la fierté authentique, symbolisant la conviction que la véritable fierté vient de l'authenticité. Ta présence imposante et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Tribus Alliées",
+                nom: "Journée des Danses Franches avec les Braves Intrépides",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les tribus alliées, cherchant à forger des liens solides dans l'unité des steppes.",
-            },
-            {
-                nom: "Les Éclats de Rire Tonitruants dans les Festins de Victoire",
-                description:
-                    "Inspirés par les éclats de rire tonitruants dans les festins de victoire, ces natifs trouvent l'humour au cœur des célébrations après la bataille.",
+                    "Chaque journée offre des danses franches avec les braves intrépides, maîtrisant l'art de la camaraderie authentique. Ta sincérité et ta force captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
         ],
     },
@@ -1536,99 +1441,94 @@ const characters = [
         astrology: ["Esprit libre", "Indépendant(e)", "Rebel(le)"],
         themes: [
             {
-                nom: "La Quête Éternelle de la Liberté Sauvage",
+                nom: "Journée de la Quête Éternelle de la Liberté Sauvage",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle de la liberté sauvage, symbolisant leur recherche constante de spontanéité et d'aventure dans un monde imprévisible.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle de la Liberté Sauvage. Tu cultives constamment une indépendance farouche et un esprit libre, utilisant ta liberté pour embrasser les défis de la vie avec une passion inégalée.",
             },
             {
-                nom: "Les Conversations Animées avec les Oiseaux Chanteurs",
+                nom: "Journée de Conversations Franches avec les Esprits Libres",
                 description:
-                    "Chaque jour, ces individus pratiquent les conversations animées avec les oiseaux chanteurs imaginaires, explorant les joies simples de la nature avec enthousiasme.",
+                    "Chaque jour, c'est une Journée de Conversations Franches avec les Esprits Libres pour toi. Tu te connectes avec l'authenticité de ceux qui marchent sans attaches, partageant tes propres vérités avec une honnêteté franche qui ne connaît pas de compromis.",
             },
             {
-                nom: "Les Débats Intérieurs de l'Ame Libre",
+                nom: "Journée des Débats Intérieurs de l'Esprit Indomptable",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'une âme libre, jonglant entre l'indépendance et la connexion avec la nature.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un esprit indomptable. Tu jongles entre les choix délicats de la loyauté et de la liberté, cherchant à forger ta propre destinée avec une détermination farouche.",
             },
             {
-                nom: "La Parade Énergique des Explorateurs Intrépides",
+                nom: "Journée de la Parade Majestueuse des Protecteurs de la Passion",
                 description:
-                    "Ces individus participent à des parades énergiques des explorateurs intrépides, symbolisant la curiosité et le courage dans leur quête quotidienne d'aventure.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Protecteurs de la Passion pour toi. Tu célèbres la grandeur de la passion, symbolisant ta quête quotidienne pour faire face aux défis avec une énergie intérieure qui inspire le respect.",
             },
             {
-                nom: "Les Randonnées Ludiques dans les Forêts Mystérieuses",
+                nom: "Journée des Randonnées Tactiques à Travers les Terres Sauvages",
                 description:
-                    "Chaque journée apporte des randonnées ludiques dans les forêts mystérieuses, explorant les recoins cachés avec une joie insouciante.",
+                    "Chaque journée apporte des randonnées tactiques à travers les terres sauvages, explorant les sentiers accidentés de la vie. Ta liberté inébranlable guide chacun de tes pas sur le chemin de l'endurance face aux adversités.",
             },
             {
-                nom: "La Lutte Contre les Regards Confinants",
+                nom: "Journée de la Lutte Contre les Regards Jugateurs",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regards confinants, symbolisant les défis de rester fidèle à soi-même dans un monde parfois restrictif.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Jugateurs. Tu fais face aux défis des regards scrutateurs, montrant avec fierté que ta passion et ton intégrité éclipsent toute tentative de te déstabiliser.",
             },
             {
-                nom: "La Quête du Feu Sacré pour Réchauffer les Cœurs",
+                nom: "Journée de la Quête de la Sagesse Nourrie par les Vents Libres",
                 description:
-                    "Chaque jour, ces individus partent à la quête du feu sacré, adoptant la chaleur humaine comme une arme pour briser les barrières sociales.",
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Nourrie par les Vents Libres pour toi. Tu t'imprègnes de la sagesse nourrie par les vents libres, cherchant à comprendre les leçons de la vie à travers la découverte de nouveaux horizons.",
             },
             {
-                nom: "Les Conseils pour Éviter les Attachements Étouffants",
+                nom: "Journée des Conseils pour Naviguer dans les Océans de la Liberté",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les attachements étouffants, tirant des leçons de leur propre expérience pour préserver leur indépendance.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Océans de la Liberté. Tu dispenses des conseils sur la manière de naviguer avec audace à travers les défis, guidant ceux qui cherchent à embrasser les vagues de la vie avec une détermination inébranlable.",
             },
             {
-                nom: "La Parade des Loups Joueurs dans les Vallées Sauvages",
+                nom: "Journée de la Parade des Gardiens de l'Esprit Libre",
                 description:
-                    "Ces individus participent à des parades des loups joueurs dans les vallées sauvages, symbolisant la camaraderie et l'instinct de meute au cœur de la vie sauvage.",
+                    "Les natifs de ce signe participent à des parades des gardiens de l'esprit libre, symbolisant la conviction que la véritable puissance vient de l'âme libre. Ta présence vivante et ta détermination font de chaque apparition une célébration de la véritable passion intérieure.",
             },
             {
-                nom: "Les Danses Libres avec les Esprits des Montagnes",
+                nom: "Journée des Danses Franches avec les Âmes Passionnées",
                 description:
-                    "Chaque journée offre des danses libres avec les esprits des montagnes, maîtrisant l'art de la danse et de la célébration avec spontanéité.",
+                    "Chaque journée offre des danses franches avec les âmes passionnées, maîtrisant l'art de la camaraderie authentique. Ta passion et ton esprit libre captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
             {
-                nom: "Les Épopées Poétiques de la Rebelle Insoumise",
+                nom: "Journée des Épopées Poétiques de l'Esprit Indépendant",
                 description:
-                    "Ces individus vivent des épopées poétiques de la rebelle insoumise, créant des chants épiques pour célébrer la force de caractère et la résistance.",
+                    "Les natifs de ce signe vivent des épopées poétiques de l'esprit indépendant, créant des chants épiques pour célébrer la quête éternelle de la liberté intérieure. Chacun de tes actes devient une strophe dans le poème de ta présence passionnée dans les hautes sphères de la vie.",
             },
             {
-                nom: "La Quête Infinie du Sens de l'Amour Sauvage",
+                nom: "Journée de la Quête Infinie du Sens de la Loyauté Authentique",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de l'amour sauvage, cherchant des relations passionnées et authentiques dans un monde souvent prévisible.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de la loyauté authentique. Tu cherches à comprendre et à cultiver la loyauté qui émane de ton être, utilisant ta détermination pour rester fidèle à tes principes avec une passion inégalée.",
             },
             {
-                nom: "Les Combats Épiques avec les Flèches de l'Optimisme",
+                nom: "Journée des Combats Épiques avec la Passion sans Retenue",
                 description:
-                    "Chaque journée apporte des combats épiques avec les flèches de l'optimisme, symbolisant les défis de rester positif et confiant malgré les adversités.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec la Passion sans Retenue. Tu manies une passion forgée dans la forge des épreuves, utilisant ta détermination pour affronter les défis avec une intrépidité qui ne connaît pas de limites.",
             },
             {
-                nom: "La Méditation Profonde sous les Étoiles Lumineuses",
+                nom: "Journée de la Méditation Profonde sur les Vallées de la Résilience",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sous les étoiles lumineuses, explorant la sérénité et la connexion cosmique avec humilité.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les vallées de la résilience, explorant les subtilités de la force intérieure. Ta contemplation te connecte aux leçons du passé, révélant des vérités qui échappent à une compréhension superficielle.",
             },
             {
-                nom: "La Quête du Sens de la Liberté Authentique",
+                nom: "Journée de la Quête du Sens de la Persévérance Inébranlable",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de la liberté authentique, où la vérité intérieure guide chaque choix et action.",
+                    "Chaque journée offre la quête perpétuelle du sens de la persévérance inébranlable, où chaque pas est une déclaration de détermination. Ta détermination à incarner la passion inspire ceux qui cherchent également à maîtriser l'art délicat de la résilience.",
             },
             {
-                nom: "Les Conseils Sages des Anciens Arbres Sage",
+                nom: "Journée des Conseils Sages des Maîtres de la Liberté Intérieure",
                 description:
-                    "Ces individus dispensent des conseils sages des anciens arbres sages, puisant dans la sagesse de la nature pour guider leurs actions au quotidien.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Maîtres de la Liberté Intérieure. Tu dispensas des conseils inspirés des maîtres de la passion qui comprennent la valeur de l'esprit libre, utilisant ta sagesse pour guider ceux qui aspirent à embrasser la vie avec une détermination inébranlable.",
             },
             {
-                nom: "La Danse des Feuilles avec les Nuances de Vert",
+                nom: "Journée de la Parade des Protecteurs de la Passion Authentique",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec les feuilles à travers les nuances de vert, symbolisant la vitalité et la croissance personnelle.",
+                    "Les natifs de ce signe participent à des parades des protecteurs de la passion authentique, symbolisant la conviction que la véritable passion vient de l'authenticité. Ta présence vivante et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Esprits des Rivières",
+                nom: "Journée des Danses Franches avec les Âmes Passionnées",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les esprits des rivières, cherchant l'harmonie avec la nature.",
-            },
-            {
-                nom: "Les Éclats de Rire Libérateurs dans les Campements Nomades",
-                description:
-                    "Inspirés par les éclats de rire libérateurs dans les campements nomades, ces natifs trouvent l'humour au cœur des joies simples de la vie sauvage.",
+                    "Chaque journée offre des danses franches avec les âmes passionnées, maîtrisant l'art de la camaraderie authentique. Ta passion et ton esprit libre captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
         ],
     },
@@ -1637,99 +1537,94 @@ const characters = [
         astrology: ["Autoritaire", "Calculateur(rice)", "Intelligent(e)"],
         themes: [
             {
-                nom: "La Quête Éternelle de la Suprématie Lannister",
+                nom: "Journée de la Quête Éternelle du Pouvoir Implacable",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle de la suprématie Lannister, symbolisant leur recherche constante de pouvoir et de prestige dans un monde politique impitoyable.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle du Pouvoir Implacable. Tu cultives constamment une autorité impitoyable et une détermination sans faille, utilisant ton pouvoir pour conquérir les défis de la vie avec une fermeté inégalée.",
             },
             {
-                nom: "Les Conversations Imposantes avec les Gobelins d'Or",
+                nom: "Journée de Conversations Franches avec les Stratèges Érudits",
                 description:
-                    "Chaque jour, ces individus pratiquent les conversations imposantes avec les gobelins d'or imaginaires, explorant les subtilités de l'économie et de la richesse.",
+                    "Chaque jour, c'est une Journée de Conversations Franches avec les Stratèges Érudits pour toi. Tu te connectes avec la sincérité de ceux qui comprennent les subtilités du pouvoir, partageant tes propres vérités avec une honnêteté crue qui ne connaît pas de compromis.",
             },
             {
-                nom: "Les Débats Intérieurs du Maître de la Raison Implacable",
+                nom: "Journée des Débats Intérieurs du Maître de la Stratégie Implacable",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un maître de la raison implacable, jonglant entre la logique et la réalpolitik avec détermination.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un maître de la stratégie implacable. Tu jongles entre les choix délicats de la loyauté et de la domination, cherchant à forger ta propre destinée avec une détermination farouche.",
             },
             {
-                nom: "La Parade Majestueuse des Stratèges Imposants",
+                nom: "Journée de la Parade Majestueuse des Protecteurs de l'Autorité",
                 description:
-                    "Ces individus participent à des parades majestueuses des stratèges imposants, symbolisant la grandeur et la puissance dans leur quête quotidienne de domination politique.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Protecteurs de l'Autorité pour toi. Tu célèbres la grandeur de l'autorité, symbolisant ta quête quotidienne pour faire face aux défis avec une fermeté intérieure qui inspire le respect.",
             },
             {
-                nom: "Les Randonnées Précises dans les Couloirs du Pouvoir",
+                nom: "Journée des Randonnées Tactiques à Travers les Territoires de la Domination",
                 description:
-                    "Chaque journée apporte des randonnées précises dans les couloirs du pouvoir, explorant les dédales politiques avec une stratégie méticuleuse.",
+                    "Chaque journée apporte des randonnées tactiques à travers les territoires de la domination, explorant les sentiers complexes de la vie. Ta détermination inébranlable guide chacun de tes pas sur le chemin de l'endurance face aux adversités.",
             },
             {
-                nom: "La Lutte Contre les Regards Méprisants",
+                nom: "Journée de la Lutte Contre les Regards Jugateurs",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regards méprisants, symbolisant les défis de maintenir la dignité et le respect dans un monde cynique.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Jugateurs. Tu fais face aux défis des regards scrutateurs, montrant avec fierté que ton autorité et ton intégrité éclipsent toute tentative de te déstabiliser.",
             },
             {
-                nom: "La Quête du Vin Rare pour Lubrifier les Transactions",
+                nom: "Journée de la Quête de la Sagesse Forgée dans le Feu de la Stratégie",
                 description:
-                    "Chaque jour, ces individus partent à la quête du vin rare, adoptant l'art de la négociation et de la diplomatie autour d'une bouteille bien choisie.",
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Forgée dans le Feu de la Stratégie pour toi. Tu t'imprègnes de la sagesse forgée dans le feu de la stratégie, cherchant à comprendre les leçons de la vie à travers les épreuves et les triomphes.",
             },
             {
-                nom: "Les Conseils pour Éviter les Liens Émotionnels Inutiles",
+                nom: "Journée des Conseils pour Naviguer dans les Tempêtes du Pouvoir",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les liens émotionnels inutiles, tirant des leçons de leur propre parcours de détachement politique.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Tempêtes du Pouvoir. Tu dispenses des conseils sur la manière de naviguer avec audace à travers les défis, guidant ceux qui cherchent à conquérir les tempêtes de la vie avec une détermination inébranlable.",
             },
             {
-                nom: "La Parade des Lions Dorés dans les Cours Royales",
+                nom: "Journée de la Parade des Gardiens de la Force Intérieure",
                 description:
-                    "Ces individus participent à des parades des lions dorés dans les cours royales, symbolisant la puissance et la richesse au cœur du jeu politique.",
+                    "Les natifs de ce signe participent à des parades des gardiens de la force intérieure, symbolisant la conviction que la véritable puissance vient de l'âme. Ta présence imposante et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
             },
             {
-                nom: "Les Danses Diplomatiques avec les Puissants de Westeros",
+                nom: "Journée des Danses Franches avec les Stratèges Intrépides",
                 description:
-                    "Chaque journée offre des danses diplomatiques avec les puissants de Westeros, maîtrisant l'art subtil de la manipulation et de l'alliance stratégique.",
+                    "Chaque journée offre des danses franches avec les stratèges intrépides, maîtrisant l'art de la camaraderie authentique. Ta sincérité et ton pouvoir captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
             {
-                nom: "Les Épopées Poétiques du Seigneur de la Maison Lannister",
+                nom: "Journée des Épopées Poétiques du Maître de la Domination",
                 description:
-                    "Ces individus vivent des épopées poétiques du seigneur de la Maison Lannister, créant des chants épiques pour célébrer la gloire et la prospérité de leur lignée.",
+                    "Les natifs de ce signe vivent des épopées poétiques du maître de la domination, créant des chants épiques pour célébrer la quête éternelle de la puissance intérieure. Chacun de tes actes devient une strophe dans le poème de ta présence puissante dans les hautes sphères de la vie.",
             },
             {
-                nom: "La Quête Infinie du Sens de la Stratégie Implacable",
+                nom: "Journée de la Quête Infinie du Sens de la Loyauté Honnête",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de la stratégie implacable, cherchant à anticiper chaque mouvement pour préserver leur influence.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de la loyauté honnête. Tu cherches à comprendre et à cultiver la loyauté qui émane de ton être, utilisant ta détermination pour rester fidèle à tes principes avec une force inégalée.",
             },
             {
-                nom: "Les Combats Épiques avec les Épées de l'Intrigue",
+                nom: "Journée des Combats Épiques avec la Fermeté sans Retenue",
                 description:
-                    "Chaque journée apporte des combats épiques avec les épées de l'intrigue, symbolisant les défis de manier des armes aussi tranchantes que la politique de haut niveau.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec la Fermeté sans Retenue. Tu manies une fermeté forgée dans la forge des épreuves, utilisant ta détermination pour affronter les défis avec une intrépidité qui ne connaît pas de limites.",
             },
             {
-                nom: "La Méditation Profonde sur les Arcanes des Alliances",
+                nom: "Journée de la Méditation Profonde sur les Vallées de la Résilience",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sur les arcanes des alliances, explorant les subtilités des pactes et des accords politiques.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les vallées de la résilience, explorant les subtilités de la force intérieure. Ta contemplation te connecte aux leçons du passé, révélant des vérités qui échappent à une compréhension superficielle.",
             },
             {
-                nom: "La Quête du Sens de la Puissance Absolue",
+                nom: "Journée de la Quête du Sens de la Persévérance Inébranlable",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de la puissance absolue, où la domination politique est la mesure ultime du succès.",
+                    "Chaque journée offre la quête perpétuelle du sens de la persévérance inébranlable, où chaque pas est une déclaration de détermination. Ta détermination à incarner la fermeté inspire ceux qui cherchent également à maîtriser l'art délicat de la résilience.",
             },
             {
-                nom: "Les Conseils Sages des Conseillers Éclairés",
+                nom: "Journée des Conseils Sages des Maîtres de l'Autorité Implacable",
                 description:
-                    "Ces individus dispensent des conseils sages des conseillers éclairés, puisant dans la sagesse des stratèges habiles pour guider leurs actions au quotidien.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Maîtres de l'Autorité Implacable. Tu dispensas des conseils inspirés des maîtres de la puissance qui comprennent la valeur de l'autorité, utilisant ta sagesse pour guider ceux qui aspirent à conquérir les défis avec une détermination inébranlable.",
             },
             {
-                nom: "La Danse des Lions avec les Nuances d'Or et de Pouvoir",
+                nom: "Journée de la Parade des Protecteurs de la Fermeté Authentique",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec les lions à travers les nuances d'or et de pouvoir, symbolisant la noblesse et l'influence de la Maison Lannister.",
+                    "Les natifs de ce signe participent à des parades des protecteurs de la fermeté authentique, symbolisant la conviction que la véritable fermeté vient de l'authenticité. Ta présence imposante et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Tisserands de Mensonges",
+                nom: "Journée des Danses Franches avec les Âmes Fermentes",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les tisserands de mensonges, cherchant à manipuler les fils du destin.",
-            },
-            {
-                nom: "Les Éclats de Rire Ironiques dans les Salles du Pouvoir",
-                description:
-                    "Inspirés par les éclats de rire ironiques dans les salles du pouvoir, ces natifs trouvent l'humour au cœur des jeux politiques les plus retors.",
+                    "Chaque journée offre des danses franches avec les âmes fermentes, maîtrisant l'art de la camaraderie authentique. Ta fermeté et ton pouvoir captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
         ],
     },
@@ -1738,99 +1633,382 @@ const characters = [
         astrology: ["Vangeur(se)", "Fier(e)", "Passionné(e)"],
         themes: [
             {
-                nom: "La Quête Éternelle de la Passion Ardente",
+                nom: "Journée de la Quête Éternelle de la Passion Ardente",
                 description:
-                    "Les natifs de ce signe sont voués à une quête éternelle de la passion ardente, symbolisant leur recherche constante d'intensité et de plaisir dans un monde sensuel.",
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle de la Passion Ardente. Tu cultives constamment une passion brûlante et un esprit indomptable, utilisant ta fougue pour embrasser les défis de la vie avec une intensité inégalée.",
             },
             {
-                nom: "Les Conversations Flamboyantes avec les Serpents du Désert",
+                nom: "Journée de Conversations Franches avec les Esprits Audacieux",
                 description:
-                    "Chaque jour, ces individus pratiquent les conversations flamboyantes avec les serpents du désert imaginaires, explorant les mystères de la vie avec une curiosité insatiable.",
+                    "Chaque jour, c'est une Journée de Conversations Franches avec les Esprits Audacieux pour toi. Tu te connectes avec l'authenticité de ceux qui osent, partageant tes propres vérités avec une honnêteté crue qui ne connaît pas de compromis.",
             },
             {
-                nom: "Les Débats Intérieurs du Maître de la Stratégie Sensuelle",
+                nom: "Journée des Débats Intérieurs de l'Âme Intrépide",
                 description:
-                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un maître de la stratégie sensuelle, jonglant entre la séduction et la ruse avec audace.",
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'une âme intrépide. Tu jongles entre les choix délicats de la loyauté et de la liberté, cherchant à forger ta propre destinée avec une détermination farouche.",
             },
             {
-                nom: "La Parade Élégante des Amants Épanouis",
+                nom: "Journée de la Parade Majestueuse des Protecteurs de la Passion",
                 description:
-                    "Ces individus participent à des parades élégantes des amants épanouis, symbolisant la beauté et la passion dans leur quête quotidienne de plaisirs exquis.",
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Protecteurs de la Passion pour toi. Tu célèbres la grandeur de la passion, symbolisant ta quête quotidienne pour faire face aux défis avec une énergie intérieure qui inspire le respect.",
             },
             {
-                nom: "Les Randonnées Aventureuses dans les Dunes Sans Fin",
+                nom: "Journée des Randonnées Tactiques à Travers les Terres Aventureuses",
                 description:
-                    "Chaque journée apporte des randonnées aventureuses dans les dunes sans fin, explorant les étendues désertiques avec une détermination sans limites.",
+                    "Chaque journée apporte des randonnées tactiques à travers les terres aventureuses, explorant les sentiers passionnants de la vie. Ta fougue inébranlable guide chacun de tes pas sur le chemin de l'endurance face aux adversités.",
             },
             {
-                nom: "La Lutte Contre les Regards Envoûtants",
+                nom: "Journée de la Lutte Contre les Regards Jugateurs",
                 description:
-                    "Les natifs de ce thème astrologique sont appelés à lutter contre les regards envoûtants, symbolisant les défis de maintenir une aura magnétique dans un monde captivant.",
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Jugateurs. Tu fais face aux défis des regards scrutateurs, montrant avec fierté que ta passion et ton intégrité éclipsent toute tentative de te déstabiliser.",
             },
             {
-                nom: "La Quête du Vin Épicé pour Éveiller les Sens",
+                nom: "Journée de la Quête de la Sagesse Nourrie par les Vents Libres",
                 description:
-                    "Chaque jour, ces individus partent à la quête du vin épicé, adoptant les saveurs envoûtantes comme une invitation à l'éveil des sens.",
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Nourrie par les Vents Libres pour toi. Tu t'imprègnes de la sagesse nourrie par les vents libres, cherchant à comprendre les leçons de la vie à travers la découverte de nouveaux horizons.",
             },
             {
-                nom: "Les Conseils pour Éviter les Liens Émotionnels Constrictifs",
+                nom: "Journée des Conseils pour Naviguer dans les Océans de la Liberté",
                 description:
-                    "Les natifs de ce signe dispensent des conseils pour éviter les liens émotionnels constrictifs, tirant des leçons de leur propre expérience pour préserver leur indépendance.",
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Océans de la Liberté. Tu dispenses des conseils sur la manière de naviguer avec audace à travers les défis, guidant ceux qui cherchent à embrasser les vagues de la vie avec une détermination inébranlable.",
             },
             {
-                nom: "La Parade des Lions du Désert dans les Cours Exotiques",
+                nom: "Journée de la Parade des Gardiens de l'Esprit Libre",
                 description:
-                    "Ces individus participent à des parades des lions du désert dans les cours exotiques, symbolisant la grâce et la force au cœur de la vie aventureuse.",
+                    "Les natifs de ce signe participent à des parades des gardiens de l'esprit libre, symbolisant la conviction que la véritable puissance vient de l'âme libre. Ta présence vivante et ta détermination font de chaque apparition une célébration de la véritable passion intérieure.",
             },
             {
-                nom: "Les Danses Passionnées avec les Âmes Intrépides",
+                nom: "Journée des Danses Franches avec les Âmes Passionnées",
                 description:
-                    "Chaque journée offre des danses passionnées avec les âmes intrépides, maîtrisant l'art de la connexion profonde avec ardeur.",
+                    "Chaque journée offre des danses franches avec les âmes passionnées, maîtrisant l'art de la camaraderie authentique. Ta passion et ton esprit libre captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
             {
-                nom: "Les Épopées Poétiques du Prince Désiré",
+                nom: "Journée des Épopées Poétiques de l'Âme Indépendante",
                 description:
-                    "Ces individus vivent des épopées poétiques du prince désiré, créant des chants épiques pour célébrer l'amour et la liberté.",
+                    "Les natifs de ce signe vivent des épopées poétiques de l'âme indépendante, créant des chants épiques pour célébrer la quête éternelle de la liberté intérieure. Chacun de tes actes devient une strophe dans le poème de ta présence passionnée dans les hautes sphères de la vie.",
             },
             {
-                nom: "La Quête Infinie du Sens de la Liberté Sensuelle",
+                nom: "Journée de la Quête Infinie du Sens de la Loyauté Authentique",
                 description:
-                    "Chaque jour, ces natifs sont voués à une quête infinie du sens de la liberté sensuelle, cherchant à goûter à chaque expérience avec passion.",
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de la loyauté authentique. Tu cherches à comprendre et à cultiver la loyauté qui émane de ton être, utilisant ta détermination pour rester fidèle à tes principes avec une passion inégalée.",
             },
             {
-                nom: "Les Combats Épiques avec les Lances de la Séduction",
+                nom: "Journée des Combats Épiques avec la Passion sans Retenue",
                 description:
-                    "Chaque journée apporte des combats épiques avec les lances de la séduction, symbolisant les défis de conquérir les cœurs avec charme et audace.",
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec la Passion sans Retenue. Tu manies une passion forgée dans la forge des épreuves, utilisant ta détermination pour affronter les défis avec une intrépidité qui ne connaît pas de limites.",
             },
             {
-                nom: "La Méditation Profonde sous les Étoiles du Désert",
+                nom: "Journée de la Méditation Profonde sur les Vallées de la Résilience",
                 description:
-                    "Ces individus s'engagent chaque jour dans une méditation profonde sous les étoiles du désert, explorant la sérénité et la connexion cosmique avec humilité.",
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les vallées de la résilience, explorant les subtilités de la force intérieure. Ta contemplation te connecte aux leçons du passé, révélant des vérités qui échappent à une compréhension superficielle.",
             },
             {
-                nom: "La Quête du Sens de l'Émotion Libre",
+                nom: "Journée de la Quête du Sens de la Persévérance Inébranlable",
                 description:
-                    "Chaque journée offre la quête perpétuelle du sens de l'émotion libre, où l'expression sincère des sentiments guide chaque interaction.",
+                    "Chaque journée offre la quête perpétuelle du sens de la persévérance inébranlable, où chaque pas est une déclaration de détermination. Ta détermination à incarner la passion inspire ceux qui cherchent également à maîtriser l'art délicat de la résilience.",
             },
             {
-                nom: "Les Conseils Sages des Oracle du Désert",
+                nom: "Journée des Conseils Sages des Maîtres de la Passion Ardente",
                 description:
-                    "Ces individus dispensent des conseils sages des oracles du désert, puisant dans la sagesse mystique pour guider leurs choix au quotidien.",
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Maîtres de la Passion Ardente. Tu dispensas des conseils inspirés des maîtres de la passion qui comprennent la valeur de l'esprit libre, utilisant ta sagesse pour guider ceux qui aspirent à embrasser la vie avec une détermination inébranlable.",
             },
             {
-                nom: "La Danse des Serpents avec les Nuances de Rouge et de Noir",
+                nom: "Journée de la Parade des Protecteurs de la Passion Authentique",
                 description:
-                    "Chaque jour, les natifs de ce signe dansent avec les serpents à travers les nuances de rouge et de noir, symbolisant la séduction et la force du désert.",
+                    "Les natifs de ce signe participent à des parades des protecteurs de la passion authentique, symbolisant la conviction que la véritable passion vient de l'authenticité. Ta présence vivante et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
             },
             {
-                nom: "La Négociation Diplomatique avec les Tribus Nomades",
+                nom: "Journée des Danses Franches avec les Âmes Passionnées",
                 description:
-                    "Les personnes de ce signe excellent dans l'art délicat de la négociation diplomatique avec les tribus nomades, cherchant à créer des alliances au-delà des frontières.",
+                    "Chaque journée offre des danses franches avec les âmes passionnées, maîtrisant l'art de la camaraderie authentique. Ta passion et ton esprit libre captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
+            },
+        ],
+    },
+    {
+        name: "Theon Greyjoy",
+        astrology: ["Indécis(e)", "Manipulable", "Fragile"],
+        themes: [
+            {
+                nom: "Journée de la Quête Éternelle de la Rédemption Intérieure",
+                description:
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle de la Rédemption Intérieure. Tu cherches constamment à te racheter, explorant les méandres de ton être avec une détermination inébranlable pour trouver la paix intérieure.",
             },
             {
-                nom: "Les Éclats de Rire Passionnés dans les Oasis Enchantées",
+                nom: "Journée de Conversations Franches avec les Âmes Brisées",
                 description:
-                    "Inspirés par les éclats de rire passionnés dans les oasis enchantées, ces natifs trouvent l'humour au cœur des moments les plus enchanteurs de la vie.",
+                    "Chaque jour, c'est une Journée de Conversations Franches avec les Âmes Brisées pour toi. Tu te connectes avec l'authenticité de ceux qui ont connu la douleur, partageant tes propres vérités avec une honnêteté crue qui ne connaît pas de compromis.",
+            },
+            {
+                nom: "Journée des Débats Intérieurs du Voyageur Tourmenté",
+                description:
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un voyageur tourmenté. Tu jongles entre les choix délicats de la loyauté et de la rédemption, cherchant à forger ta propre destinée avec une détermination farouche.",
+            },
+            {
+                nom: "Journée de la Parade Majestueuse des Chercheurs de Rédemption",
+                description:
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Chercheurs de Rédemption pour toi. Tu célèbres la grandeur de la rédemption, symbolisant ta quête quotidienne pour faire face aux défis avec une volonté de renouveau intérieur.",
+            },
+            {
+                nom: "Journée des Randonnées Tactiques à Travers les Sentiers de la Reconstruction",
+                description:
+                    "Chaque journée apporte des randonnées tactiques à travers les sentiers de la reconstruction, explorant les chemins difficiles de la vie. Ta détermination inébranlable guide chacun de tes pas sur le chemin de l'endurance face aux adversités.",
+            },
+            {
+                nom: "Journée de la Lutte Contre les Regards Jugateurs",
+                description:
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Jugateurs. Tu fais face aux défis des regards scrutateurs, montrant avec fierté que ta quête de rédemption éclipsent toute tentative de te déstabiliser.",
+            },
+            {
+                nom: "Journée de la Quête de la Sagesse Forgée dans les Leçons de l'Épreuve",
+                description:
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Forgée dans les Leçons de l'Épreuve pour toi. Tu t'imprègnes de la sagesse forgée dans les leçons de l'épreuve, cherchant à comprendre les enseignements de la vie à travers les défis et les triomphes.",
+            },
+            {
+                nom: "Journée des Conseils pour Naviguer dans les Océans de la Transformation",
+                description:
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Océans de la Transformation. Tu dispenses des conseils sur la manière de naviguer avec audace à travers les défis, guidant ceux qui cherchent à transformer leur vie avec une détermination inébranlable.",
+            },
+            {
+                nom: "Journée de la Parade des Gardiens de la Volonté de Se Reconstruire",
+                description:
+                    "Les natifs de ce signe participent à des parades des gardiens de la volonté de se reconstruire, symbolisant la conviction que la véritable force vient de l'âme. Ta présence résiliente et ta détermination font de chaque apparition une célébration de la véritable renaissance intérieure.",
+            },
+            {
+                nom: "Journée des Danses Franches avec les Âmes en Quête de Réconciliation",
+                description:
+                    "Chaque journée offre des danses franches avec les âmes en quête de réconciliation, maîtrisant l'art de la camaraderie authentique. Ta quête de rédemption et ton courage captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
+            },
+            {
+                nom: "Journée des Épopées Poétiques de l'Âme en Quête de Résilience",
+                description:
+                    "Les natifs de ce signe vivent des épopées poétiques de l'âme en quête de résilience, créant des chants épiques pour célébrer la quête éternelle de la paix intérieure. Chacun de tes actes devient une strophe dans le poème de ta présence résolue dans les hautes sphères de la vie.",
+            },
+            {
+                nom: "Journée de la Quête Infinie du Sens de la Loyauté Honnête",
+                description:
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de la loyauté honnête. Tu cherches à comprendre et à cultiver la loyauté qui émane de ton être, utilisant ta détermination pour rester fidèle à tes principes avec une force inégalée.",
+            },
+            {
+                nom: "Journée des Combats Épiques avec la Volonté de Se Reconstruire sans Retenue",
+                description:
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec la Volonté de Se Reconstruire sans Retenue. Tu manies une détermination forgée dans la forge des épreuves, utilisant ta volonté de se reconstruire pour affronter les défis avec une intrépidité qui ne connaît pas de limites.",
+            },
+            {
+                nom: "Journée de la Méditation Profonde sur les Vallées de la Résilience",
+                description:
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les vallées de la résilience, explorant les subtilités de la force intérieure. Ta contemplation te connecte aux leçons du passé, révélant des vérités qui échappent à une compréhension superficielle.",
+            },
+            {
+                nom: "Journée de la Quête du Sens de la Persévérance Inébranlable",
+                description:
+                    "Chaque journée offre la quête perpétuelle du sens de la persévérance inébranlable, où chaque pas est une déclaration de détermination. Ta détermination à incarner la volonté de se reconstruire inspire ceux qui cherchent également à maîtriser l'art délicat de la résilience.",
+            },
+            {
+                nom: "Journée des Conseils Sages des Maîtres de la Rédemption Intérieure",
+                description:
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Maîtres de la Rédemption Intérieure. Tu dispensas des conseils inspirés des maîtres de la rédemption qui comprennent la valeur de la reconstruction, utilisant ta sagesse pour guider ceux qui aspirent à reconstruire leur vie avec une détermination inébranlable.",
+            },
+            {
+                nom: "Journée de la Parade des Protecteurs de la Résilience Authentique",
+                description:
+                    "Les natifs de ce signe participent à des parades des protecteurs de la résilience authentique, symbolisant la conviction que la véritable résilience vient de l'authenticité. Ta présence résolue et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
+            },
+            {
+                nom: "Journée des Danses Franches avec les Âmes en Quête de Réconciliation",
+                description:
+                    "Chaque journée offre des danses franches avec les âmes en quête de réconciliation, maîtrisant l'art de la camaraderie authentique. Ta quête de rédemption et ton courage captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
+            },
+        ],
+    },
+    {
+        name: "Joffrey Baratheon",
+        astrology: ["Cruel(le)", "Arrogant(e)", "Méprisant(e)"],
+        themes: [
+            {
+                nom: "Journée de la Quête Éternelle de la Puissance Absolue",
+                description:
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle de la Puissance Absolue. Tu cherches constamment à dominer, cultivant une autorité sans limites et une détermination implacable pour atteindre la grandeur suprême.",
+            },
+            {
+                nom: "Journée de Conversations Franches avec les Esprits Ambitieux",
+                description:
+                    "Chaque jour, c'est une Journée de Conversations Franches avec les Esprits Ambitieux pour toi. Tu te connectes avec l'ambition de ceux qui visent haut, partageant tes propres vérités avec une honnêteté crue qui ne connaît pas de compromis.",
+            },
+            {
+                nom: "Journée des Débats Intérieurs du Monarque en Herbe",
+                description:
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un monarque en herbe. Tu jongles entre les choix délicats du pouvoir et de la domination, cherchant à forger ta propre destinée avec une détermination farouche.",
+            },
+            {
+                nom: "Journée de la Parade Majestueuse des Chercheurs de la Couronne",
+                description:
+                    "Aujourd'hui, c'est une Journée de la Parade Majestueuse des Chercheurs de la Couronne pour toi. Tu célèbres la grandeur de la couronne, symbolisant ta quête quotidienne pour faire face aux défis avec une volonté inébranlable d'atteindre le sommet.",
+            },
+            {
+                nom: "Journée des Randonnées Tactiques à Travers les Sentiers du Pouvoir",
+                description:
+                    "Chaque journée apporte des randonnées tactiques à travers les sentiers du pouvoir, explorant les chemins complexes de la vie. Ta détermination inébranlable guide chacun de tes pas sur le chemin de l'endurance face aux adversités.",
+            },
+            {
+                nom: "Journée de la Lutte Contre les Regards Jugateurs",
+                description:
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Jugateurs. Tu fais face aux défis des regards scrutateurs, montrant avec fierté que ta quête de puissance éclipsent toute tentative de te déstabiliser.",
+            },
+            {
+                nom: "Journée de la Quête de la Sagesse Forgée dans le Feu de l'Ambition",
+                description:
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Forgée dans le Feu de l'Ambition pour toi. Tu t'imprègnes de la sagesse forgée dans le feu de l'ambition, cherchant à comprendre les leçons de la vie à travers les défis et les triomphes.",
+            },
+            {
+                nom: "Journée des Conseils pour Naviguer dans les Océans de la Domination",
+                description:
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Océans de la Domination. Tu dispenses des conseils sur la manière de naviguer avec audace à travers les défis, guidant ceux qui cherchent à conquérir les vagues de la vie avec une détermination inébranlable.",
+            },
+            {
+                nom: "Journée de la Parade des Gardiens de la Couronne Absolue",
+                description:
+                    "Les natifs de ce signe participent à des parades des gardiens de la couronne absolue, symbolisant la conviction que la véritable puissance vient de l'âme dominante. Ta présence imposante et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
+            },
+            {
+                nom: "Journée des Danses Franches avec les Âmes Ambitieuses",
+                description:
+                    "Chaque journée offre des danses franches avec les âmes ambitieuses, maîtrisant l'art de la camaraderie authentique. Ta détermination et ton pouvoir captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
+            },
+            {
+                nom: "Journée des Épopées Poétiques du Monarque en Herbe",
+                description:
+                    "Les natifs de ce signe vivent des épopées poétiques du monarque en herbe, créant des chants épiques pour célébrer la quête éternelle du trône. Chacun de tes actes devient une strophe dans le poème de ta présence puissante dans les hautes sphères de la vie.",
+            },
+            {
+                nom: "Journée de la Quête Infinie du Sens de la Loyauté Ambitieuse",
+                description:
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de la loyauté ambitieuse. Tu cherches à comprendre et à cultiver la loyauté qui émane de ton être, utilisant ta détermination pour rester fidèle à tes principes avec une puissance inégalée.",
+            },
+            {
+                nom: "Journée des Combats Épiques avec l'Ambition sans Retenue",
+                description:
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec l'Ambition sans Retenue. Tu manies une ambition forgée dans la forge des épreuves, utilisant ta détermination pour affronter les défis avec une intrépidité qui ne connaît pas de limites.",
+            },
+            {
+                nom: "Journée de la Méditation Profonde sur les Vallées de la Résilience",
+                description:
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les vallées de la résilience, explorant les subtilités de la force intérieure. Ta contemplation te connecte aux leçons du passé, révélant des vérités qui échappent à une compréhension superficielle.",
+            },
+            {
+                nom: "Journée de la Quête du Sens de la Persévérance Inébranlable",
+                description:
+                    "Chaque journée offre la quête perpétuelle du sens de la persévérance inébranlable, où chaque pas est une déclaration de détermination. Ta détermination à incarner l'ambition inspire ceux qui cherchent également à maîtriser l'art délicat de la résilience.",
+            },
+            {
+                nom: "Journée des Conseils Sages des Maîtres de la Puissance Absolue",
+                description:
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Maîtres de la Puissance Absolue. Tu dispensas des conseils inspirés des maîtres de la domination qui comprennent la valeur de l'autorité, utilisant ta sagesse pour guider ceux qui aspirent à conquérir les défis avec une détermination inébranlable.",
+            },
+            {
+                nom: "Journée de la Parade des Protecteurs de la Puissance Authentique",
+                description:
+                    "Les natifs de ce signe participent à des parades des protecteurs de la puissance authentique, symbolisant la conviction que la véritable puissance vient de l'authenticité. Ta présence imposante et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
+            },
+            {
+                nom: "Journée des Danses Franches avec les Âmes Ambitieuses",
+                description:
+                    "Chaque journée offre des danses franches avec les âmes ambitieuses, maîtrisant l'art de la camaraderie authentique. Ta détermination et ton pouvoir captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
+            },
+        ],
+    },
+    {
+        name: "Ramsay Bolton",
+        astrology: ["Sadique", "Manipulateur(rice)", "Sanglant(e)"],
+        themes: [
+            {
+                nom: "Journée de la Quête Éternelle du Plaisir Pervers",
+                description:
+                    "Pour toi, chaque jour est une Journée de la Quête Éternelle du Plaisir Pervers. Tu recherches constamment des plaisirs sombres et pervers, explorant les recoins les plus troubles de la vie avec une détermination sans faille.",
+            },
+            {
+                nom: "Journée de Conversations Franches avec les Âmes Torturées",
+                description:
+                    "Chaque jour, c'est une Journée de Conversations Franches avec les Âmes Torturées pour toi. Tu te connectes avec l'authenticité de ceux qui ont connu la souffrance, partageant tes propres vérités avec une honnêteté crue qui ne connaît pas de compromis.",
+            },
+            {
+                nom: "Journée des Débats Intérieurs du Chercheur de Cruauté",
+                description:
+                    "Les personnes de ce signe sont constamment engagées dans des débats intérieurs dignes d'un chercheur de cruauté. Tu jongles entre les choix délicats de la malveillance et de la domination, cherchant à forger ta propre destinée avec une détermination farouche.",
+            },
+            {
+                nom: "Journée de la Parade Sinistre des Disciples de la Torture",
+                description:
+                    "Aujourd'hui, c'est une Journée de la Parade Sinistre des Disciples de la Torture pour toi. Tu célèbres la grandeur de la cruauté, symbolisant ta quête quotidienne pour faire face aux défis avec une volonté inébranlable d'explorer les abysses de l'obscurité.",
+            },
+            {
+                nom: "Journée des Randonnées Tactiques à Travers les Sentiers de la Douleur",
+                description:
+                    "Chaque journée apporte des randonnées tactiques à travers les sentiers de la douleur, explorant les chemins tortueux de la vie. Ta détermination inébranlable guide chacun de tes pas sur le chemin de l'endurance face aux adversités.",
+            },
+            {
+                nom: "Journée de la Lutte Contre les Regards Jugateurs",
+                description:
+                    "Pour toi, chaque jour est une Journée de la Lutte Contre les Regards Jugateurs. Tu fais face aux défis des regards scrutateurs, montrant avec fierté que ta quête perverse éclipsent toute tentative de te déstabiliser.",
+            },
+            {
+                nom: "Journée de la Quête de la Sagesse Nourrie par les Ténèbres",
+                description:
+                    "Chaque jour, c'est une Journée de la Quête de la Sagesse Nourrie par les Ténèbres pour toi. Tu t'imprègnes de la sagesse nourrie par les ténèbres, cherchant à comprendre les leçons de la vie à travers les ombres les plus profondes.",
+            },
+            {
+                nom: "Journée des Conseils pour Naviguer dans les Océans de la Perversion",
+                description:
+                    "Aujourd'hui, c'est une Journée des Conseils pour Naviguer dans les Océans de la Perversion. Tu dispenses des conseils sur la manière de naviguer avec audace à travers les défis, guidant ceux qui cherchent à plonger dans les vagues de la vie perverse avec une détermination inébranlable.",
+            },
+            {
+                nom: "Journée de la Parade des Gardiens des Plaisirs Sombres",
+                description:
+                    "Les natifs de ce signe participent à des parades des gardiens des plaisirs sombres, symbolisant la conviction que la véritable puissance vient de l'âme perverse. Ta présence sinistre et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
+            },
+            {
+                nom: "Journée des Danses Franches avec les Âmes en Quête de Cruauté",
+                description:
+                    "Chaque journée offre des danses franches avec les âmes en quête de cruauté, maîtrisant l'art de la camaraderie authentique. Ta quête de perversité et ton intensité captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
+            },
+            {
+                nom: "Journée des Épopées Poétiques du Chercheur de Souffrance",
+                description:
+                    "Les natifs de ce signe vivent des épopées poétiques du chercheur de souffrance, créant des chants épiques pour célébrer la quête éternelle de l'obscurité. Chacun de tes actes devient une strophe dans le poème de ta présence ténébreuse dans les hautes sphères de la vie.",
+            },
+            {
+                nom: "Journée de la Quête Infinie du Sens de la Loyauté Perverse",
+                description:
+                    "Chaque jour, les natifs de ce signe sont voués à une quête infinie du sens de la loyauté perverse. Tu cherches à comprendre et à cultiver la loyauté qui émane de ton être, utilisant ta détermination pour rester fidèle à tes principes pervers avec une intensité inégalée.",
+            },
+            {
+                nom: "Journée des Combats Épiques avec la Quête de Perversion sans Retenue",
+                description:
+                    "Aujourd'hui, c'est une Journée des Combats Épiques avec la Quête de Perversion sans Retenue. Tu manies une quête perverse forgée dans la forge des épreuves, utilisant ta détermination pour affronter les défis avec une intrépidité qui ne connaît pas de limites.",
+            },
+            {
+                nom: "Journée de la Méditation Profonde sur les Vallées de la Cruauté",
+                description:
+                    "Les natifs de ce signe s'engagent chaque jour dans une méditation profonde sur les vallées de la cruauté, explorant les subtilités de la force intérieure. Ta contemplation te connecte aux leçons du passé, révélant des vérités qui échappent à une compréhension superficielle.",
+            },
+            {
+                nom: "Journée de la Quête du Sens de la Perversion Inébranlable",
+                description:
+                    "Chaque journée offre la quête perpétuelle du sens de la perversion inébranlable, où chaque pas est une déclaration de détermination. Ta détermination à incarner la quête perverse inspire ceux qui cherchent également à maîtriser l'art délicat de la perversité.",
+            },
+            {
+                nom: "Journée des Conseils Sages des Maîtres de la Souffrance Perverse",
+                description:
+                    "Aujourd'hui, c'est une Journée des Conseils Sages des Maîtres de la Souffrance Perverse. Tu dispensas des conseils inspirés des maîtres de la perversion qui comprennent la valeur de l'obscurité, utilisant ta sagesse pour guider ceux qui aspirent à explorer les ténèbres avec une détermination inébranlable.",
+            },
+            {
+                nom: "Journée de la Parade des Protecteurs de la Cruauté Authentique",
+                description:
+                    "Les natifs de ce signe participent à des parades des protecteurs de la cruauté authentique, symbolisant la conviction que la véritable cruauté vient de l'authenticité. Ta présence sinistre et ta détermination font de chaque apparition une célébration de la véritable force intérieure.",
+            },
+            {
+                nom: "Journée des Danses Franches avec les Âmes en Quête de Perversion",
+                description:
+                    "Chaque journée offre des danses franches avec les âmes en quête de perversion, maîtrisant l'art de la camaraderie authentique. Ta quête de perversité et ton intensité captivent tous ceux qui ont le privilège de partager le parquet de la vie sociale avec toi.",
             },
         ],
     },
@@ -1890,6 +2068,7 @@ function updateUI(character) {
     astrologyContainer.appendChild(astrologyDescriptionElement);
 }
 function cleanUI() {
+    imageContainer.innerHTML = "";
     characterContainer.innerHTML = "";
     astrologyContainer.innerHTML = "";
 }

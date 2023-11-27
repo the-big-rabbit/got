@@ -11,7 +11,7 @@
 }
 h1 {
     margin: 0;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 h2,
 h3,
@@ -26,7 +26,7 @@ button {
     margin: 15px !important;
 }
 
-#characterContainer {
+#imageContainer {
     padding: 10%;
 }
 
@@ -37,5 +37,4 @@ button {
     border: 1px solid black;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 50px;
 }
