@@ -8,9 +8,21 @@
     justify-content: center;
     text-align: center;
 }
+h1 {
+    margin: 0;
+    padding: 20px 0;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 5px 0;
+}
 
-.container div {
-    margin: 50px 0;
+button {
+    margin: 15px !important;
 }
 
 #characterContainer {
@@ -30,23 +42,4 @@
     border: 1px solid black;
     border-radius: 50%;
     object-fit: cover;
-}
-
-#characterImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease-out;
-    position: absolute;
-}
-
-#characterName {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
 }

@@ -3,8 +3,6 @@ const randomizeButton = document.getElementById("randomizeButton");
 const characterContainer = document.getElementById("characterContainer");
 const characterNameContainer = document.getElementById("name");
 const astrologyContainer = document.getElementById("asthrones");
-const astroTitre = document.getElementById("titre");
-const astroDescription = document.getElementById("description");
 
 // Create an array of characters
 const characters = [
@@ -1852,7 +1850,6 @@ function pickRandomCharacter() {
             characters[randomIndex].themes[randomAstrology].description,
         ];
     }
-    // return characters[Math.floor(Math.random() * characters.length)];
 }
 
 // Function to update the UI with the selected character
@@ -1863,13 +1860,10 @@ function updateUI(character) {
     const astrologyTitre = `${character[2]}`;
     const astrologyDescription = `${character[3]}`;
 
-    console.log(character);
-
     // Update the image element
     const imageElement = document.createElement("img");
     imageElement.src = imageUrl;
     imageElement.alt = characterName;
-    imageElement.style.transition = "transform 0.5s ease-out";
     characterContainer.appendChild(imageElement);
 
     // Update the name element
@@ -1880,13 +1874,13 @@ function updateUI(character) {
     // Update the astrology element
     const astrologyElement = document.createElement("h3");
     astrologyElement.textContent = astrology.toString().split(",").join(", ");
-
     const astrologyTitreElement = document.createElement("h1");
     astrologyTitreElement.textContent = astrologyTitre;
-
     const astrologyDescriptionElement = document.createElement("p");
     astrologyDescriptionElement.textContent = astrologyDescription;
 
+    // Append the elements to the container
+    astrologyContainer.appendChild(nameElement);
     astrologyContainer.appendChild(astrologyElement);
     astrologyContainer.appendChild(astrologyTitreElement);
     astrologyContainer.appendChild(astrologyDescriptionElement);
