@@ -1,6 +1,7 @@
 // Get the button and character container Elements
 const randomizeButton = document.getElementById("randomizeButton");
 const characterContainer = document.getElementById("characterContainer");
+const characterNameContainer = document.getElementById("name");
 const astrologyContainer = document.getElementById("asthrones");
 const astroTitre = document.getElementById("titre");
 const astroDescription = document.getElementById("description");
@@ -1874,13 +1875,7 @@ function updateUI(character) {
     // Update the name element
     const nameElement = document.createElement("h2");
     nameElement.textContent = characterName;
-    nameElement.style.color = "white";
-    nameElement.style.position = "absolute";
-    nameElement.style.left = "50%";
-    nameElement.style.top = "70%";
-    nameElement.style.transform = "translate(-50%, -50%)";
-    nameElement.style.textAlign = "center";
-    characterContainer.appendChild(nameElement);
+    characterNameContainer.appendChild(nameElement);
 
     // Update the astrology element
     const astrologyElement = document.createElement("h3");
